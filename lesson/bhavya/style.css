@@ -1,0 +1,25 @@
+
+body,h1,p{
+    margin: 0;
+}
+
+
+
+ul{
+    float:right;
+}
+ul li a{
+    color:hotpink;
+    padding:2px 2px;
+    border:1px solid thistle;
+
+}
+}
+.section {
+    background-color: gold
+    color: white;
+    padding:0px 10px;
+    margin:5px 0px;
+    border:1px solid #000;
+
+}
