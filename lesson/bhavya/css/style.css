@@ -1,0 +1,21 @@
+body,h1,p{
+    margin:3px 0px:}
+    
+.section{
+    color:bisque;
+    padding:0px 10px;
+    margin:4px 0px;
+    border:1px solid rgb green;
+
+
+}
+ul{
+    float:right;
+    margin-top:15px;
+
+}
+ul li a {
+    color;#fff;
+    padding:4px 10px;
+    border:1px solid #fff;
+}
