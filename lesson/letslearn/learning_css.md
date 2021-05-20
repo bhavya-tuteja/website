@@ -27,10 +27,10 @@ how to define a class,id--
 
 <h1 class="heading-1">Heading1<h1>
 <h1 id="heading-1">Heading1<h1>
-class should be denote from .
-id should be denote from #
-we can add multiple classes in a document
-we can use unique id in a document
+class should be denoted from .
+id should be denoted from #
+We can add multiple classes in a document
+We can use unique id in a document
 
 <head>
     <link>
