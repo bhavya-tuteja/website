@@ -24,11 +24,12 @@ key1:value1;
 </head>
 
 how to define a class,id--
+
 <h1 class="heading-1">Heading1<h1>
 <h1 id="heading-1">Heading1<h1>
 class should be denote from .
 id should be denote from #
-we can add multiple class in a document
+we can add multiple classes in a document
 we can use unique id in a document
 
 <head>
