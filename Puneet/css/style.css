@@ -1,0 +1,12 @@
+.external h3{
+    background-color: orange;
+    color: black;
+    margin: 0%;
+}
+.external p{
+    background-color: pink;
+    color: red;
+}
+.external{
+    width: 50%;
+}
