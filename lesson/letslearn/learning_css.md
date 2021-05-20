@@ -35,8 +35,8 @@ We can use unique id in a document
 <head>
     <link>
 </head>
-what is box model
-    ---margin, top,right,bottom,left
+What is box model?
+    ---margin, top, right, bottom, left
         12px 12px 12px 12px;
         12px;
         12px 10px; (top,bottom - 12px , right ,left 10px)
