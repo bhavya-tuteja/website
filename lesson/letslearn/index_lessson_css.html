@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Use of css (inline)</title>
+    <link rel="stylesheet" href="style_css_file.css" />
+    <!--Use of style tag is applying the effect of background and color on TAG 1 AND TAG 3 
+        TAG 2  is not effected by the internal css property 
+        because TAG 2 is specified with the backgournd and color command-->
+    <!--It is internal css command.  To understand we will  the command as
+    <style>
+      h1 {
+        background-color: blue;
+        color: burlywood;
+      }
+    </style>
+-->
+  </head>
+  <body>
+    <!--create a document with tag h1
+         In order to apply css effect externally
+         we  will create a file with extension css
+         the new css file will be linked to main file with its command-->
+
+    <h1>Good day, Sir.(TAG 1)</h1>
+    <!--to add inline css  add background and color in side the h1 tag as follows
+    Start with style Then background color is red and color is white-->
+    <h1 style="background-color: brown; color: cornsilk">
+      Good Day, Sir. Today is Friday. TAG 2
+    </h1>
+    <p>
+      In the above css command in h1 tag. The commond is only in second h1 tag.
+      <br />
+      There is no effect of the "TAG 1". To understand the inline command we
+      take one more h1 tag
+    </p>
+    <h1>Ok It is a test with "TAG 3".</h1>
+    <!-- If we want to set the background command and color command to all the three h1 tags follow as below:
+          Add a style tag in head tag-->
+  </body>
+</html>
