@@ -1,17 +1,17 @@
  html,body{
     height: 100%;
 }
-/*
+
 h1{
     margin: 0;
 }
 p{
     margin: 0;
-} */
+} 
 body,h1,p{
     margin: 0;
 }
-/* 0-9,a-f  6 */
+
 .section {
     background-color: tomato;
     color: white;
