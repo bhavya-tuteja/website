@@ -1,0 +1,28 @@
+html, body{
+    height:100%
+}
+
+
+body,h1,p{
+    margin: 0;
+}
+.box-model{
+    display:flex;
+    align-items: center;
+ flex-wrap:wrap;
+    gap:2px;
+    height: 30%;
+}
+
+
+
+.section {
+    background-color: pink;
+    color: greenyellow;
+    padding:0px 3px;
+    margin: 0px 0px;
+    border:2px solid tomato;
+    
+    flex-basis: 33%;
+}
+
