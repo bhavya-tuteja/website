@@ -5,7 +5,7 @@
       .flex-container {
         display: flex;
         height: 200px;
-        align-items: stretch;
+        align-items: baseline;
         background-color: DodgerBlue;
       }
 
@@ -25,16 +25,17 @@
     <p>
       <strong
         ><em>
-          The "align-items: stretch;" stretches the flex items to fill the
-          container (this is default):
+          The "align-items: baseline;" aligns the flex items such as their
+          baselines aligns:
         </em></strong
       >
     </p>
 
     <div class="flex-container">
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
+      <div><h1>1</h1></div>
+      <div><h6>2</h6></div>
+      <div><h3>3</h3></div>
+      <div><small>4</small></div>
     </div>
   </body>
 </html>
