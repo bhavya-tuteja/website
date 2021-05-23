@@ -1,0 +1,21 @@
+html,body{
+    height: 100%;
+}
+body,h1,p{
+    margin: 0px;
+}
+.section{
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    border: 2px solid black;
+    flex-basis: 30%;
+}
+.section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    height: 50%;
+}
