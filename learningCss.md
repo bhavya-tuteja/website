@@ -80,3 +80,18 @@ display : flex , grid
             <td>1</td>
         </tr>
     </table>
+
+grid
+    row,column
+
+    grid-template-columns: 33% 33% 33%
+    grid-template-columns: 1fr 1fr 1fr
+    grid-template-columns: 16px 1fr 8px
+
+    grid-template-areas:
+        "header header header"
+        "side   main   ....."
+        "footer footer footer"
+    .header{
+        grid-area:header;
+    }

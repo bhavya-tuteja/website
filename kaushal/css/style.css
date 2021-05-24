@@ -1,8 +1,6 @@
 html,body{
     height: 100%;
-}
-
-
+}   
 body,h1,p{
     margin: 0px;
 }
@@ -19,7 +17,7 @@ body,h1,p{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
- gap: 5px;
-align-items: center;
-height: 100%;  
+  gap: 5px;
+  align-items: center;
+  height: 100%;  
 }
