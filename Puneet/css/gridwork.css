@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+   background-color: pink;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: red;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
