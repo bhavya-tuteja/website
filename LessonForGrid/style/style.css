@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    grid-template-columns: 250px 1fr 16px;
+    grid-template-areas:"header header header"
+                        "side main  ."
+                        "footer footer footer";
+                        
+    height:100vh;
+}
+.header,.sidebar,.main,.footer{
+    padding: 1px;
+}
+.header{
+        grid-area:header;
+        background-color: tomato;
+}
+.sidebar{
+        grid-area:side;
+        background-color: saddlebrown;
+}
+.main{
+        grid-area:main;
+        background-color: wheat;
+        height:75vh;
+}
+.footer{
+        grid-area:footer;
+        background-color: royalblue;
+}
