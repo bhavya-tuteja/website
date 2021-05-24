@@ -27,12 +27,13 @@
 .main{
         grid-area:main;
         background-color: wheat;
-        height:70vh;
+        height:75vh;
 }
 
 
 .footer{
         grid-area:footer;
         background-color:sandybrown;
+        justify-content: center;
 }
         
