@@ -1,8 +1,8 @@
 .container{
     display: grid;
-    grid-template-columns: 250px 1fr 16px;
+    grid-template-columns: 1fr 3fr 1fr;
     grid-template-areas:"header header header"
-                        "side main  ."
+                        "left-side main  right-side"
                         "footer footer footer";
                         
     height:100vh;
@@ -15,13 +15,18 @@
         background-color: tomato;
 }
 .sidebar{
-        grid-area:side;
         background-color: saddlebrown;
+}
+.left-side{
+        grid-area:left-side;
+}
+.right-side{
+        grid-area:right-side;
 }
 .main{
         grid-area:main;
         background-color: wheat;
-        height:75vh;
+        height:65vh;
 }
 .footer{
         grid-area:footer;
