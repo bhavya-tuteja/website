@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: "header header header"
+                         "left-side main right-side"
+                         "footer footer footer";
+                         height: 100vh;
+}
+.header{
+    grid-area: header;
+    color: white;
+    background-color: black;
+    height: 10vh;
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color:#EAEDED;
+}
+.left-side{
+    grid-area: left-side;
+    
+}
+.main{
+    grid-area: main;
+    background-color: blue;
+    height: 80vh;
+}
+.right-side{
+    grid-area: right-side;
+}
+.footer{
+    grid-area: footer;
+    background-color:#232F3E;
+    color: white;
+    height: 10vh;
+}
