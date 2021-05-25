@@ -1,0 +1,39 @@
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: "header header header"
+    "leftside main rightside"
+    "footer footer footer"
+    
+}
+.header{
+    background-color: aqua;
+    color: blueviolet;
+    grid-area: header;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sidebar{
+    background-color: brown;
+}
+.leftside{
+    grid-area: leftside;
+}
+.main{
+    background-color: coral;
+    grid-area: main;
+    color: brown;
+    height: 60vh;
+}
+.rightside{
+    grid-area: rightside;
+}
+.footer{
+    background-color: cadetblue;
+    color: chocolate;
+    grid-area: footer;
+    height: 20vh;
+}
