@@ -1,3 +1,8 @@
+    html,body
+{
+margin:0px;  
+height: 100%;  
+}
 .container{
     height: 100vh;
     display: grid;
@@ -7,17 +12,47 @@
     "footer footer footer"
     
 }
+
+
 .header{
     background-color: aqua;
-    color: blueviolet;
+    color:green;
     grid-area: header;
     height: 20vh;
-    display: flex;
-    justify-content: space-between;
+    list-style-type: none;
     
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    
+
+}
+.nav-item:hover {
+background-color:blue;
+color:white;
+
+}
+.test{
+    margin: 0px;
+    padding: 0px;
+    background-color: hotpink;
+}
+
+li a:hover{
+    background-color: greenyellow;
+    color: white;
+}
+li a{
+    display:block;
+    color: grey;
+    text-decoration: none;
 }
 .sidebar{
     background-color: brown;
+    
 }
 .leftside{
     grid-area: leftside;
