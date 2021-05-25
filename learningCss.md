@@ -51,3 +51,47 @@ what is box model
     margin-bottom:10px
     margin-right:0px
     margin-left:0px
+
+css3,5
+float : left,
+display : inline-block;
+display : flex , grid
+            flex - 1 Dimension
+            grid - 2 Dimension
+
+    flex-direction : row ,column
+    flex-basis:(1% - 100%)
+    gap:3
+    flex-wrap:wrap;
+    justify-content:center,space-between,space-around,flex-start,flex-end
+    <div flex>
+        
+        <div>
+        </div>
+
+        <div>
+        </div>
+
+    </div>
+
+
+    <table>
+        <tr>
+            <td>1</td>
+        </tr>
+    </table>
+
+grid
+    row,column
+
+    grid-template-columns: 33% 33% 33%
+    grid-template-columns: 1fr 1fr 1fr
+    grid-template-columns: 16px 1fr 8px
+
+    grid-template-areas:
+        "header header header"
+        "side   main   ....."
+        "footer footer footer"
+    .header{
+        grid-area:header;
+    }
