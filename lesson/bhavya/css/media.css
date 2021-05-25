@@ -41,11 +41,14 @@ padding: 2px;
 .footer{
    grid-area:footer;
    background-color: palevioletred;
+   list-style: none;
+   justify-content: space-between;
+   display:flex;
 }
 
 .conatiner{
    list-style: none;
-   margin: 2px;
+   margin: 1px;
    padding: 1px;
    display: flex;
    justify-content: space-around;
@@ -72,6 +75,6 @@ padding: 2px;
                            "left-side main  right-side"
                            "footer footer footer ";
 } 
-.right-side,.header{
-        display: block;
+.right-side,.header .footer{
+   display: block;
 }
