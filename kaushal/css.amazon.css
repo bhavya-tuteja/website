@@ -1,14 +1,16 @@
-    html,body{
-    height: 100%;
+    body,h1,p{
+    margin: 0px;
+    
     }
-body,h1,p{
- margin: 0px;
-}
+    html,body{
+        height: 100%;
+    }
 
 .text{
-    background-color: aqua;
-    color: blue;
+    background-color:cadetblue;
+    color:white;
     border:5px solid black;
+    padding: 10px 10px;
     flex-basis: 30%;
 }
 .section-cantainer{
@@ -17,5 +19,5 @@ body,h1,p{
     align-items: center;
     flex-wrap: wrap;
     height: 100%;
-    gap: 5px;
+    gap:5px;
 }
