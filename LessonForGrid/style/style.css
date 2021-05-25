@@ -1,11 +1,15 @@
+html,body{
+         margin: 0;
+}
 .container{
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-areas:"header header header"
-                        "left-side main  right-side"
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 10% 10% 70% 10%;
+        grid-template-areas:". . ."
+                        "left-side left-side left-side"
+                        "main main main"
                         "footer footer footer";
-                        
-    height:100vh;
+        height:100vh;
 }
 .header,.sidebar,.main,.footer{
     padding: 1px;
@@ -13,6 +17,7 @@
 .header{
         grid-area:header;
         background-color: tomato;
+        display: none;
 }
 .sidebar{
         background-color: saddlebrown;
@@ -21,14 +26,51 @@
         grid-area:left-side;
 }
 .right-side{
+        display: none;
         grid-area:right-side;
 }
 .main{
         grid-area:main;
         background-color: wheat;
-        height:65vh;
+        /* height:65vh; */
 }
 .footer{
         grid-area:footer;
         background-color: royalblue;
+}
+
+.menu{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+        align-items: center;
+}
+.menu-item{
+        flex-basis: 25%;
+        text-align: center;
+        height: 100%;
+}
+.menu-item:hover{
+        cursor: pointer;
+        background-color: slateblue;
+        color: white;
+        
+}
+/* .menu > li{
+
+} */
+@media only screen and ( min-width :500px) {
+     .container{
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-rows: 10% 80% 10%;
+        grid-template-areas:"header header header"
+                                "left-side main  right-side"
+                                "footer footer footer";
+     } 
+     .right-side,.header{
+             display: block;
+     }
 }
