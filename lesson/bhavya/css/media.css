@@ -66,11 +66,11 @@ padding: 2px;
 
 @media only screen and ( min-width :500px) {
 .media{
-   grid-template-columns: 1fr 3fr 1fr;
-   grid-template-rows: 10% 80% 10%;
-   grid-template-areas:"header header header"
+   grid-template-columns: 1fr 3fr 1fr ;
+   grid-template-rows: 10% 80% 10% ;
+   grid-template-areas:"header header header "
                            "left-side main  right-side"
-                           "footer footer footer";
+                           "footer footer footer ";
 } 
 .right-side,.header{
         display: block;
