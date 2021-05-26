@@ -1,0 +1,45 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: slategrey;
+    margin:10rem;
+
+}
+.itmes-1{
+    background-color: tan;
+    position: relative;
+}
+.item-22{
+    position:absolute;
+    top:0;
+    left: 0;
+    /* width: 100%; */
+}
+.item-33{
+    position:fixed;
+    bottom: 0;
+    right:0;
+}
+.items.itmes-0{
+    position:sticky;
+    top:0px;
+}
+.items{
+    padding: 10em;
+}
+.item{
+    background-color: steelblue;
+    margin:20px;
+    padding: 20px;
+}
+
+.item-2{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.itmes-111{
+    background-color: tomato;
+}
