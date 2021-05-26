@@ -1,0 +1,11 @@
+html,body{
+    height: 100%;
+}
+.test{
+    background-color: red;
+    color: green;
+}
+.text{
+    background-color: greenyellow;
+    color: grey;
+}
