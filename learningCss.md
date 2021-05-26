@@ -95,3 +95,18 @@ grid
     .header{
         grid-area:header;
     }
+
+    position
+        static default
+        fixed
+        absolute
+        relative
+        sticky
+
+        unset
+        initial
+
+
+    top:0
+    left:0
+    bootom:0
