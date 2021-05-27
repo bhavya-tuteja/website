@@ -1,14 +1,70 @@
+{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+    
+    
+
+}
+
 body{
+
+    
     font-family: 'Roboto', sans-serif;
     color: #434a54;
     background-color: #f5f7fa;
+    justify-content:center;
+    align-items: center;
+
+    
 }
+
 .primary-font{
     font-family: 'Roboto', sans-serif;
 }
 .header{
     text-align: center;
-}
-.social-icons > i {
+
+.social-icons{
         font-size: 24px;
+}
+.profile-img{
+    position: relative;
+    display: grid;  
+}
+.profiletext{
+align-items: center;
+position:relative;
+border-radius: 5px;
+flex-direction:column;
+display: flex;
+}
+.profiletext .imgbox{
+    position: relative;
+    height:100vh;
+    border-radius: 40px;
+}
+.profiletext .imgbox img{
+    position: absolute;
+    top:0;
+
+
+}
+
+.about{
+    margin-left: 5px;
+    
+}
+.profile-info{
+    height:50vh;
+    align-items: center;
+    padding:10px;
+    display: flex;
+    flex-direction:column;
+}
+.profile-info h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
 }
