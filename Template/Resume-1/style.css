@@ -1,0 +1,14 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #434a54;
+    background-color: #f5f7fa;
+}
+.primary-font{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    text-align: center;
+}
+.social-icons > i {
+        font-size: 24px;
+}
