@@ -6,3 +6,10 @@ Category 1  -- Kuashal( Heading,Image,Desc,)
 Category 2  -- Puneet ( Heading,Image,Desc,)
 Category 3  -- Bhawya ( Heading,Image,Desc,)
 Category 4  -- Isha ( Heading,Image,Desc,)
+
+
+
+https://demo.templateflip.com/creative-cv/
+https://demo.templateflip.com/right-resume/
+https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free
+https://fonts.google.com/specimen/Roboto
