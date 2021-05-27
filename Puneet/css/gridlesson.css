@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+      height:100px;    
 }
 .sidebar{
     background-color: green;
@@ -39,8 +39,8 @@
     border: 2px solid black;
     flex-basis: 20%;
 }
-.section-container{
-    display: inline-block
+.container{
+    display: inline-block;
     justify-content: center;
     align-items:center;
     flex-wrap: wrap;
