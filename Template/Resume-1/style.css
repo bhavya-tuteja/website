@@ -43,25 +43,27 @@ display: flex;
 .profiletext .imgbox{
     position: relative;
     height:100vh;
-    border-radius: 40px;
 }
 .profiletext .imgbox img{
     position: absolute;
     top:0;
+    border-radius: 50px;
 
 
 }
 
-.about{
-    margin-left: 5px;
-    
-}
+
+
+    .about{
+    display:block;
+    justify-content: center;
+    text-transform: capitalize;
+    }
 .profile-info{
-    height:50vh;
-    align-items: center;
-    padding:10px;
+    height:25vh;
+    padding:5px;
     display: flex;
-    flex-direction:column;
+    float:right;
 }
 .profile-info h2{
     margin-top: 50px;
