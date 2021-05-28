@@ -35,54 +35,56 @@ body{
 .profile{
     box-sizing: border-box;
     border-radius: 10px;
-max-width: 100px;
- margin: 50px;
     text-align: center;
+    display:block;
 
   }
   .resume{
       background-color: #4a89dc;;
       padding:15px 15px;
       display: flex;
+      flex-wrap: wrap;
       flex-direction:column;
-    align-items: center;
     position: relative;
-
-
-  }
+    align-items: center;
+    
+ }
   .pic{
-    display: inline-flex;
-    padding: 10px;
+    display:inline-flex;
     background-color:#f5f7fa;
-    margin:5px;
+    margin:0px;
+    padding:10px;
     border-radius: 2px;
-     justify-content:center;
      box-sizing: border-box;
   position:absolute;
-  left: 5%;
-  bottom:-15%;
+  bottom: -16%;
+  left:2%;
+
+  
   color:white;
   }
 
   .introduction{
-        width: 50%;
+        width: 25%;
       text-align:center;
+
 
   }
   .pic img{
       display:block;
-
      }
   .font{
     font-family: 'roboto' sans-serif;
     font-size: 18px;
     color: white;
     text-align: center;
+  
   }
   .title {
     color:white;
     font-size: 15px;
     font-family: sans-serif;
+
   }
   
   button {
@@ -93,9 +95,9 @@ max-width: 100px;
     background-color:white;
     text-align: center;
     cursor: pointer;
-    width: 25%;
     font-size: 12px;
     border-radius: 15px;
+    width: 100%;
   }
   
 button:hover {
@@ -103,7 +105,11 @@ button:hover {
         background-color:#37bc9b;
         color: white;}
 
-        
+        @media screen and (max-width: 600px) {
+          .resume.introduction {
+            width: 100%;
+            margin-top: 25px;
+          }
         
 
         
