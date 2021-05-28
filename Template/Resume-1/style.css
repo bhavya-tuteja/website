@@ -1,14 +1,28 @@
+
+
 body{
+
+    
     font-family: 'Roboto', sans-serif;
     color: #434a54;
     background-color: #f5f7fa;
+    align-items:center;
+    justify-content: center;
+    
+    
 }
 .primary-font{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'roboto' ,sans-serif;
 }
 .header{
     text-align: center;
+
 }
+.social-icon > i{
+
+    font-size: 24px;
+}
+<<<<<<< HEAD
 .social-icons > i {
         font-size: 24px;
 }
@@ -18,3 +32,70 @@ body{
     text-align: center;
 
 }
+=======
+.profile{
+    box-sizing: border-box;
+    border-radius: 10px;
+max-width: 100px;
+ margin: 50px;
+    text-align: center;
+  }
+  .resume{
+      background-color: blue;
+      padding:15px 15px;
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+  .pic{
+    display: inline-flex;
+    padding: 10px;
+    background:whitesmoke;
+    margin: 5px;
+    border-radius: 2px;
+     justify-content:center;
+     box-sizing: border-box;
+    
+  }
+  .introduction{
+        width: 50%;
+      text-align: center;
+  }
+  .pic img{
+      display:block;
+    line-height: 2.5;
+      flex-wrap: wrap;
+        vertical-align: middle;
+      
+  }
+  .font{
+    font-family: 'roboto' sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+  .title {
+    color:white;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  
+  button {
+    border: 2px white;
+ display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color:white;
+    text-align: center;
+    cursor: pointer;
+    width: 10%%;
+    font-size: 12px;
+    border-radius: 15px;
+  }
+  
+button:hover {
+        cursor: pointer;
+        background-color: green;
+        color: white;
+  }
+>>>>>>> d414216980d36c4898c9d02d9873612ca37f7d08

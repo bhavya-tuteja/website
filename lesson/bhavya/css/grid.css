@@ -25,9 +25,9 @@
         grid-area:right-side;
 }
 .main{
-        grid-area:main;
+       
         background-color: wheat;
-        height:75vh;
+        height:75vh; grid-area:main;
 }
 
 
