@@ -22,7 +22,6 @@ body{
 
     font-size: 24px;
 }
-<<<<<<< HEAD
 .social-icons > i {
         font-size: 24px;
 }
@@ -32,7 +31,7 @@ body{
     text-align: center;
 
 }
-=======
+
 .profile{
     box-sizing: border-box;
     border-radius: 10px;
@@ -42,34 +41,38 @@ max-width: 100px;
 
   }
   .resume{
-      background-color: blue;
+      background-color: #4a89dc;;
       padding:15px 15px;
       display: flex;
-    flex-direction:column;
+      flex-direction:column;
     align-items: center;
+    position: relative;
+
 
   }
   .pic{
     display: inline-flex;
     padding: 10px;
-    background:whitesmoke;
-    margin: 5px;
+    background-color:#f5f7fa;
+    margin:5px;
     border-radius: 2px;
-     justify-content:s=center;
+     justify-content:center;
      box-sizing: border-box;
+  position:absolute;
+  left: 5%;
+  bottom:-15%;
+  color:white;
   }
+
   .introduction{
-        width: 50%;
-      text-align: center;
+        width: 66%%;
+      text-align:center;
+
   }
   .pic img{
       display:block;
-    line-height: 2.5;
-    vertical-align: -webkit-baseline-middle;
-        flex-wrap: wrap;
 
-      
-  }
+     }
   .font{
     font-family: 'roboto' sans-serif;
     font-size: 18px;
@@ -86,18 +89,22 @@ max-width: 100px;
     border: 2px white;
  display: inline-block;
     padding: 8px;
-    color: black;
+    color: #434a54!;
     background-color:white;
     text-align: center;
     cursor: pointer;
-    width: 10%%;
+    width: 25%;
     font-size: 12px;
     border-radius: 15px;
   }
   
 button:hover {
         cursor: pointer;
-        background-color: green;
-        color: white;
-  }
->>>>>>> d414216980d36c4898c9d02d9873612ca37f7d08
+        background-color:#37bc9b;
+        color: white;}
+
+        
+        
+
+        
+          
