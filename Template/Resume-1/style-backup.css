@@ -1,6 +1,4 @@
-*{
-  box-sizing: border-box;
-}
+
 
 body{
 
@@ -49,84 +47,66 @@ body{
       flex-direction:column;
     position: relative;
     align-items: center;
-    border-radius: 10px;
+    
  }
   .pic{
     display:inline-flex;
     background-color:#f5f7fa;
-    margin-top: 20px;
+    margin:0px;
     padding:10px;
     border-radius: 2px;
-    box-shadow: 0 0.125rem 1rem 0px rgb(0 0 0 / 8%);
-    color:white;
+     box-sizing: border-box;
+  position:absolute;
+  bottom: -16%;
+  left:2%;
+
+  
+  color:white;
   }
 
   .introduction{
+        width: 25%;
       text-align:center;
 
 
   }
   .pic img{
       display:block;
-      width: 200px;
-      height: 200px;
      }
   .font{
     font-family: 'roboto' sans-serif;
-    font-size: 27px;
+    font-size: 18px;
     color: white;
     text-align: center;
-    margin: 16px 0;
+  
   }
   .title {
     color:white;
-    font-size: 16px;
+    font-size: 15px;
     font-family: sans-serif;
 
   }
-  .action{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-  }  
+  
   button {
-    margin-top: 8px;
-    border: 1px solid #fff;
-    padding: 13px 24px;
-    font-size: 15px;
-    border-radius: 36px;
+    border: 2px white;
+ display: inline-block;
+    padding: 8px;
+    color: #434a54!;
+    background-color:white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 15px;
+    width: 100%;
   }
-  button.success{
-    color: #fff;
-    background-color: #2fa084;
-    border-color: #2c967c;
-  }
+  
 button:hover {
         cursor: pointer;
         background-color:#37bc9b;
         color: white;}
 
-        @media screen and (min-width: 420px) {
-          /* .resume.introduction {
+        @media screen and (max-width: 600px) {
+          .resume.introduction {
             width: 100%;
             margin-top: 25px;
-          } */
-          .profile{
-            padding:10px 35px;
           }
-          .resume{
-                flex-direction: row;
-                position: relative;
-          }
-          .pic{
-                position: absolute;
-                top: 27px;
-          }
-          .introduction{
-            flex: 1;
-          }
-          .profile-container{
-            flex:1;
-            margin-left: 200px;
-          }
-        }
