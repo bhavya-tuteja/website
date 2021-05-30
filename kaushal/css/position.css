@@ -1,0 +1,35 @@
+html,body{
+     margin: 0px;
+     padding: 0px;
+    height: 0px;
+}
+.container{
+    background-color: plum;
+        margin:10rem;
+}
+.glass{
+    padding: 10rem;
+    
+}
+.glass-0{
+    position: relative;
+    background-color: rebeccapurple;
+}
+.cup-2{
+    position: absolute;
+    top:0px ;
+    left:0px;
+    
+}
+.glass-1{
+    position:fixed;
+    background-color: saddlebrown;
+}
+
+.cup-22{
+    position: relative;
+    top:5px;
+    left:10px;
+
+
+}
