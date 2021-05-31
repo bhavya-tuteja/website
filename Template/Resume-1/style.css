@@ -48,12 +48,13 @@ body{
 max-width: 100px;
  margin: 50px;
     text-align: center;
+
   }
   .resume{
       background-color: blue;
       padding:15px 15px;
       display: flex;
-    flex-direction: row;
+    flex-direction:column;
     align-items: center;
 
   }
@@ -63,9 +64,8 @@ max-width: 100px;
     background:whitesmoke;
     margin: 5px;
     border-radius: 2px;
-     justify-content:center;
+     justify-content:s=center;
      box-sizing: border-box;
-    
   }
   .introduction{
         width: 50%;
@@ -74,18 +74,25 @@ max-width: 100px;
   .pic img{
       display:block;
     line-height: 2.5;
+<<<<<<< HEAD
       flex-wrap: wrap;
       
+=======
+    vertical-align: -webkit-baseline-middle;
+        flex-wrap: wrap;
+
+>>>>>>> 41a023f6186cafc8787d635a63f4ecf22a88b447
       
   }
   .font{
     font-family: 'roboto' sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
+    text-align: center;
   }
   .title {
     color:white;
-    font-size: 20px;
+    font-size: 15px;
     font-family: sans-serif;
   }
   
@@ -93,7 +100,7 @@ max-width: 100px;
     border: 2px white;
  display: inline-block;
     padding: 8px;
-    color: white;
+    color: black;
     background-color:white;
     text-align: center;
     cursor: pointer;
