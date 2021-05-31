@@ -25,3 +25,8 @@ p {
   color: blue;
   background-color: lightpink;
 }
+
+::selection {
+  background: red;
+  color: lightskyblue;
+}
