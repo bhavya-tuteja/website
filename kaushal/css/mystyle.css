@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 40px;
+    background-color: #cdcdcd;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    color:#434a54;
+}
+.skill-container{
+    background-color: white;
+    padding:20px
+}
+.skill-heading{
+    margin:0px;
+    font-size: 18px;
+}
+.skill-item{
+
+}
+.skill-name{
+    font-size: 14px;
+}
+.skill-bar{
+    width: 100%;
+    height: 15px;
+    background-color: #ddd;
+    border-radius: 4px;
+}
+.skill-fill-bar{
+    height: 15px;
+    border-radius: 4px;
+}
+.skill-html{
+    width: 80%;
+    background-color: rgba(0, 140, 255, 0.541);   
+}
+.skill-javascript{
+    width: 60%;
+    background-color: rgba(0, 140, 255, 0.541);   
+}
+.skill-photoshop{
+    width: 90%;
+    background-color: rgba(0, 140, 255, 0.541);   
+}
+.skill-css{
+    width: 80%;
+    background-color: teal;   
+}
