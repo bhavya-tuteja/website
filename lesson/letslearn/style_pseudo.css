@@ -10,3 +10,9 @@ li::first-letter {
   font-weight: bold;
   background-color: lightskyblue;
 }
+
+p::first-line {
+  color: lightskyblue;
+  font-size: 1.5rem;
+  background-color: red;
+}
