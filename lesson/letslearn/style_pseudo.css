@@ -1,0 +1,23 @@
+p::first-letter {
+  color: blue;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: blanchedalmond;
+}
+li::first-letter {
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: lightskyblue;
+}
+
+p::first-line {
+  color: lightskyblue;
+  font-size: 1.5rem;
+  background-color: red;
+}
+::first-line {
+  color: blue;
+  font-size: 1.5 rem;
+  background-color: hotpink;
+}
