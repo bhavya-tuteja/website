@@ -4,28 +4,29 @@ margin:0px;
 height: 100%;  
 }
 .container{
-    height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
     grid-template-areas: "header header header"
-    "leftside main rightside"
-    "footer footer footer"
-    
+                          "left-side main right-side"
+                          "footer footer footer";
+   height: 100vh;                       
 }
 
 
 .header{
-    background-color: aqua;
+    height: 10px;
     color:green;
     grid-area: header;
     height: 20vh;
     list-style-type: none;
+    background-color: aqua;
     
 }
 .nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+                             
     height: 100%;
     
 
@@ -38,7 +39,7 @@ color:white;
 .test{
     margin: 0px;
     padding: 0px;
-    background-color: hotpink;
+    
 }
 
 li a:hover{
@@ -46,10 +47,12 @@ li a:hover{
     color: white;
 }
 li a{
-    display:block;
+    display: block;
     color: grey;
     text-decoration: none;
+    
 }
+
 .sidebar{
     background-color: brown;
     
@@ -66,6 +69,7 @@ li a{
 .rightside{
     grid-area: rightside;
 }
+
 .footer{
     background-color: cadetblue;
     color: chocolate;
