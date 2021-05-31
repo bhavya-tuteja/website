@@ -21,3 +21,7 @@ p::first-line {
   font-size: 1.5 rem;
   background-color: hotpink;
 }
+p {
+  color: blue;
+  background-color: lightpink;
+}
