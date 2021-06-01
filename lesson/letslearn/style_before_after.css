@@ -3,11 +3,14 @@ p::before {
   font-size: 2rem;
   background: lightpink;
   color: blue;
+  display: block;
 }
 
+/* display:bkock will change the contents as div */
 p::after {
   content: "Write after the text in 'p' tag ";
   font-size: 2.5rem;
   background: lightskyblue;
   color: red;
+  display: block;
 }
