@@ -1,0 +1,13 @@
+p::before {
+  content: "Add before the text in 'p' tag  ";
+  font-size: 2rem;
+  background: lightpink;
+  color: blue;
+}
+
+p::after {
+  content: "Write after the text in 'p' tag ";
+  font-size: 2.5rem;
+  background: lightskyblue;
+  color: red;
+}
