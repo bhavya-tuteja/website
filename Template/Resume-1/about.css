@@ -1,0 +1,36 @@
+body,html{
+    display: block;
+}
+.about{
+    font-family: 'Roboto', sans-serif;
+margin-bottom: 32px;
+margin-top: 0;
+font-weight: 600;
+line-height: 1.2;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+::after, ::before {
+    box-sizing: border-box;
+}
+.mt-2{
+    margin-top: 1rem;
+}
+.row{ 
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: block;
+    flex-wrap: wrap;
+}
+.pb-1 {
+    padding-bottom: .5rem;
+}
+.text-secondary {
+    color: #656d78;
+}
+
