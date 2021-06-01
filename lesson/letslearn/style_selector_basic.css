@@ -13,3 +13,8 @@ h2 {
 p {
   color: darkblue;
 }
+#box {
+  width: 20rem;
+  height: 20rem;
+  background-color: red;
+}
