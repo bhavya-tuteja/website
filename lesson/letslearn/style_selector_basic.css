@@ -24,3 +24,8 @@ div.box-class {
   height: 20rem;
   background-color: blue;
 }
+
+* {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
