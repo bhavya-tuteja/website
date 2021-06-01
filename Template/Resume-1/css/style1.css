@@ -1,0 +1,58 @@
+
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px 2px;
+align-items: center;
+padding:2px 2px;
+width:100%
+}
+.section{
+    display:flex;
+    width: 38%;
+    flex-direction: column;
+}
+.contact {
+    display: block;
+    padding:6px 6px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434a54;
+    background-color: #f8f9fa;
+    border: 2px solid #dee2e6;
+    border-radius:4px;}
+    .message {
+        margin:2px;
+    }
+    input[type=submit] {
+        background-color:#4a89dc;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: left;
+        margin-top: 5px;
+      }
+      .adress {
+        display: flex;
+        justify-content: space-around;
+        position: relative
+        
+    }
+        .adress-value {
+            margin-top:2px;
+            position: absolute;
+            top: 32px;
+            left: -81px;
+        }
+            . h3 {
+                display: block;
+                font-size: 4px;
+                font-family: sans-serif;
+                align-items: center;
+            }
+
+             .text{   color: #656d78!important;
+    padding-bottom: 1rem!important;}
