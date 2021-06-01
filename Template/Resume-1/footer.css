@@ -1,0 +1,31 @@
+body{
+
+    
+    font-family: 'Roboto', sans-serif;
+    color: #434a54;
+    background-color: #f5f7fa;
+    align-items:center;
+    justify-content: center;
+    
+    
+}
+.primary-font{
+    font-family: 'roboto' ,sans-serif;
+}
+.footer{
+    text-align: center;
+
+}
+.social-icon > i{
+
+    font-size: 24px;
+}
+.social-icons > i {
+        font-size: 24px;
+}
+.text-small {
+    font-size: .875rem;
+}
+::after, ::before {
+    box-sizing: border-box;
+}
