@@ -1,0 +1,41 @@
+body,html{
+    height:100px;
+    margin:0px;
+    padding:0px;
+    background-color: #f5f7fa;
+}
+*{
+    box-sizing: border-box;
+}
+.section{
+    text-align: center;
+    color:#6c757d;
+    font-weight: 600;
+    
+
+}
+.section-1{
+    font-size: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.section-1{
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+    
+}
+.head{
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size: 17px;
+}
+.flip{
+    font-weight: 200;
+    line-height: 1.5rem;    
+    margin: 0px;
+    padding: 0px;
+    font-size:15px;
+}
