@@ -4,8 +4,10 @@ p::before {
   background: lightpink;
   color: blue;
   display: block;
+  margin-top: 5rem;
 }
 
+/* margin-top will create a marging */
 /* display:bkock will change the contents as div */
 p::after {
   content: "Write after the text in 'p' tag ";
@@ -14,3 +16,7 @@ p::after {
   color: red;
   display: block;
 }
+
+/* p { */
+/* margin-top: 5rem; */
+/* } */
