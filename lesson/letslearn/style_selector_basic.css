@@ -18,3 +18,9 @@ p {
   height: 20rem;
   background-color: red;
 }
+
+div.box-class {
+  width: 20rem;
+  height: 20rem;
+  background-color: blue;
+}
