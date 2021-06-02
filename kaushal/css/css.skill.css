@@ -3,15 +3,36 @@
 }
 body{
     background-color:#cdcdcd;
-    margin: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #434a54;
+    background-color: #f5f7fa;
+    width:400px;
+    
+     
 }
 .skill-container{
     background-color: white;
-    padding: 20px;
+    padding: 30px 30px;
+    margin:5px 5px;
+}
+
+.skill-bars
+{
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434a54;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.section{
+    
 }
 .test{
     margin: 0px;
-    font-size: 18px;
+    font-size: 23px;
+    
 }
 .section-skill{
 background-color:#ddd;
@@ -35,6 +56,7 @@ width:50%;
 }
 .skill-adobe{
 width:45%;
+background-color:#198754;
 }
 .skill-sketch{
 width:50%;
