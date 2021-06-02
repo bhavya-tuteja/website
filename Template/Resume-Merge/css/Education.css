@@ -1,3 +1,4 @@
+
 body,html{
   
     font-family: 'Roboto', sans-serif;
@@ -11,25 +12,47 @@ body,html{
     hr{
         border: 1px solid #e6e9ed; 
         margin-top: 0px; 
-       
             
     }
-
-.section-0{
-background-color:white;
-color: #434a54; 
-/* margin: 5px 45px 5px 80px; */
-/* padding: 15px 30px 15px 30px; */
-border: 1px solid #e6e9ed; 
-border-left: 2px solid #37bc9b;
-font-size: 14px;
+    .section-3{
+        background-color:white;
+        color: #434a54;
+        margin: 20px;
+        padding: 0 30px;
+        border: 1px solid #e6e9ed; 
+        flex-basis: 50%;
+        border-left: 2px solid #37bc9b;
+        font-size: 14px;
+        
+    }
+    .section-4{
+        background-color:white;
+        color: #434a54; 
+        margin: 20px;
+        padding: 0 30px;
+        border: 1px solid #e6e9ed; 
+        flex-basis: 50%;
+        border-left: 2px solid #37bc9b;
+        font-size: 14px;
+        
+    }
+    .section-5{
+        background-color:white;
+        color: #434a54;
+        margin: 20px;
+        padding: 0 30px;
+        border: 1px solid #e6e9ed; 
+        flex-basis: 50%;
+        border-left: 2px solid #37bc9b;
+        font-size: 14px;
+        
+    }
     
-      
-}
-
-.box{
-    height: 50%;
-    /* margin: 0px 265px 0px 265px; */
-    background-color: white;
-}
-   
+    .educationbox{
+        height: 50%;
+        background-color: white;
+    }
+        
+       
+    
+        
