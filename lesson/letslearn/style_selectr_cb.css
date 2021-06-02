@@ -12,3 +12,8 @@ div.box > p {
   color: lightgreen;
   background: red;
 }
+
+h2 + p {
+  color: white;
+  background: red;
+}
