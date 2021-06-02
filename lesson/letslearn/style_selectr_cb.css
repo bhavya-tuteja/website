@@ -17,3 +17,8 @@ h2 + p {
   color: white;
   background: red;
 }
+
+h2 ~ p {
+  color: blue;
+  background: lightpink;
+}
