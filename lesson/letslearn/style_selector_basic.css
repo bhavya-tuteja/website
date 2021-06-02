@@ -1,0 +1,31 @@
+body {
+  font-family: Tahoma;
+  font-size: 1rem;
+}
+h1 {
+  color: red;
+}
+
+h2 {
+  color: chartreuse;
+}
+
+p {
+  color: darkblue;
+}
+#box {
+  width: 20rem;
+  height: 20rem;
+  background-color: red;
+}
+
+div.box-class {
+  width: 20rem;
+  height: 20rem;
+  background-color: blue;
+}
+
+* {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}

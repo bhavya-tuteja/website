@@ -47,7 +47,7 @@ width:100%
             top: 32px;
             left: -81px;
         }
-            . h3 {
+            .h3 {
                 display: block;
                 font-size: 4px;
                 font-family: sans-serif;
@@ -55,4 +55,5 @@ width:100%
             }
 
              .text{   color: #656d78!important;
-    padding-bottom: 1rem!important;}
+                    padding-bottom: 1rem!important;
+}

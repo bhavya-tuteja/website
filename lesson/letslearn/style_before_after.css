@@ -1,13 +1,23 @@
-p::before {
+p:hover::before {
   content: "Add before the text in 'p' tag  ";
   font-size: 2rem;
   background: lightpink;
   color: blue;
+  display: block;
+  margin-top: 5rem;
 }
 
-p::after {
+/* Hover property - The will appear when we bring cursor on the text in tag 'p' */
+/* margin-top will create a marging */
+/* display:bkock will change the contents as div */
+p:hover::after {
   content: "Write after the text in 'p' tag ";
   font-size: 2.5rem;
   background: lightskyblue;
   color: red;
+  display: block;
 }
+
+/* p { */
+/* margin-top: 5rem; */
+/* } */
