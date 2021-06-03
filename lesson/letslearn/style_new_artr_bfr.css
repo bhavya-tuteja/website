@@ -23,6 +23,6 @@ h1 {
 h1::before {
   content: ADD-Before * * *;
 }
-h1 {
+h1::after {
   content: ADD-After####;
 }
