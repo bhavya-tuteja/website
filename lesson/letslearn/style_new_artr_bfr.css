@@ -20,9 +20,13 @@ h1 {
   color: lightyellow;
   text-shadow: 0 2px 5px lightslategrey;
 }
-.h1::before {
-  content: ADD-stars;
+h1::before {
+  content: "Add text first";
+  display: block;
+  color: blue;
 }
-.h1::after {
-  content: ADD-Hash;
+h1::after {
+  content: "Add text last";
+  display: block;
+  color: red;
 }
