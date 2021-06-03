@@ -15,3 +15,8 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+h1 {
+  color: lightyellow;
+  text-shadow: 0 2px 5px lightslategrey;
+}
