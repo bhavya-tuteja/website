@@ -1,6 +1,17 @@
 .main_div {
-  background-color: cornflowerblue;
+  width: 100vw;
+  height: 100vw;
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body {
-  color: red;
+  color: blue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
