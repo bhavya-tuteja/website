@@ -20,9 +20,9 @@ h1 {
   color: lightyellow;
   text-shadow: 0 2px 5px lightslategrey;
 }
-h1::before {
-  content: ADD-Before * * *;
+.h1::before {
+  content: ADD-stars;
 }
-h1::after {
-  content: ADD-After####;
+.h1::after {
+  content: ADD-Hash;
 }
