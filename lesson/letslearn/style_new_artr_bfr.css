@@ -1,0 +1,32 @@
+.main_div {
+  width: 100vw;
+  height: 100vw;
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  color: blue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: lightyellow;
+  text-shadow: 0 2px 5px lightslategrey;
+}
+h1::before {
+  content: "Add text first";
+  display: block;
+  color: blue;
+}
+h1::after {
+  content: "Add text last";
+  display: block;
+  color: red;
+}
