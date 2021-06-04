@@ -1,0 +1,14 @@
+.containor {
+  background: red;
+  color: white;
+  width: 45rem;
+  height: 45rem;
+  display: grid;
+}
+
+.item {
+  background: blue;
+  color: white;
+  width: 6rem;
+  height: 6rem;
+}
