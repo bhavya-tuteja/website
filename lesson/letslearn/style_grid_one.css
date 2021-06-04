@@ -1,0 +1,13 @@
+.containor {
+  background: red;
+  color: white;
+  width: 45rem;
+  height: 35rem;
+}
+
+.item {
+  background: blue;
+  color: white;
+  width: 20rem;
+  height: 20rem;
+}
