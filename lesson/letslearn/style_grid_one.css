@@ -4,6 +4,8 @@
   width: 45rem;
   height: 45rem;
   display: grid;
+  grid-template-columns: 0.75rem;
+  grid-template-rows: 0.75rem;
 }
 
 .item {
