@@ -15,18 +15,26 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --b-a-width: 10vw;
+  --b-a-md-width: 15vw;
+  --b-a-sm-width: 20vw;
+}
 
 h1 {
   color: lightyellow;
   text-shadow: 0 2px 5px lightslategrey;
+  position: relative;
 }
+
 h1::before {
-  content: "Add text first";
-  display: block;
-  color: blue;
+  content: "";
+  position: absolute;
+  width: 10vw;
 }
+
 h1::after {
-  content: "Add text last";
-  display: block;
-  color: red;
+  content: "";
+  position: absolute;
+  width: 10vw;
 }
