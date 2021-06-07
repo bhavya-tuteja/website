@@ -19,15 +19,14 @@ width:100%
 .contact {
     display: block;
     padding:6px 6px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 1.5;
     color: #434a54;
     background-color: #f8f9fa;
     border: 2px solid #dee2e6;
     border-radius:4px;
-width: 40%;}
-    
+width: 60%;}   
     .message {
         margin:2px;
     }
@@ -59,7 +58,7 @@ width: 40%;}
              .text{   color: #656d78!important;
                     padding-bottom: 2px;
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
 .section{
     flex-direction: row;
     }
@@ -70,8 +69,12 @@ width: 40%;}
     .adress-value{
         position: absolute;
         top:-237px;
-        right:567px;
+        right:117px;
     }
 .section{
     width: 30%;
+}
+.message .contact{
+    width:50%;
+
 }

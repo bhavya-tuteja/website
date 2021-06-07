@@ -4,11 +4,31 @@
   width: 45rem;
   height: 45rem;
   display: grid;
+  /* grid-template-columns: 4rem 4rem 4rem; */
+  /* grid-template-rows: 4rem 4rem 4rem; */
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  font-size: 2rem;
 }
 
 .item {
   background: blue;
   color: white;
-  width: 6rem;
-  height: 6rem;
+  width: 5 rem;
+  height: 5 rem;
+}
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background: lightskyblue;
+  color: red;
+}
+.item4 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background: lightskyblue;
+  color: red;
 }
