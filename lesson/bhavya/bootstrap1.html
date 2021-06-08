@@ -1,174 +1,215 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>website</title>
-    <style>
-        .left-side{
-   grid-area:left-side;
-}
-.footer {
-    padding: 5px 5px;
-    background-color: #e9ecef;
-    border-radius:5px;
-    margin-bottom:0px;
-}
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    </style>
-  </head>
-  <body>
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./about.html">about us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contact.html">contact </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./gallery.html">Gallery </a>
-                 </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./form.html">Form </a>
-                  </li>
-                 </ul>
-            </div>
-          </div>
-        </nav>
-         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="https://unsplash.it/1200/500?id=1" class="d-block w-100" alt="img-1">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="https://unsplash.it/1200/500?id=2" class="d-block w-100" alt="img-2">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://unsplash.it/1200/500?id=3" class="d-block w-100" alt="img-3">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-          <aside class="sidebar left-side">
-        
-            <a href="#" class="list-group-item list-group-item-action " aria-current="true">
-                  The current link item
-                </a>
-                <a href="./gallery.html" class="list-group-item list-group-item-action active">gallery</a>
-                <a href="#" class="list-group-item list-group-item-action">second item</a>
-                <a href="#" class="list-group-item list-group-item-action">services</a>
-                <a href="#" class="list-group-item list-group-item-action">product</a>
+  <title>website</title>
+  <style>
+    .left-side {
+      grid-area: left-side;
+    }
+
+    .footer {
+      padding: 5px 5px;
+      background-color: #e9ecef;
+      border-radius: 5px;
+      margin-bottom: 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">about us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">contact </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./modal.html">Gallery </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./form.html">Form </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="https://unsplash.it/1200/500?id=1" class="d-block w-100" alt="img-1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://unsplash.it/1200/500?id=2" class="d-block w-100" alt="img-2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://unsplash.it/1200/500?id=3" class="d-block w-100" alt="img-3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2">
+        <aside class="sidebar left-side">
+
+          <a href="#" class="list-group-item list-group-item-action " aria-current="true">
+            The current link item
+          </a>
+          <a href="./gallery.html" class="list-group-item list-group-item-action active">gallery</a>
+          <a href="./form1.html" class="list-group-item list-group-item-action">CAREER</a>
+          <a href="#" class="list-group-item list-group-item-action">services</a>
+          <a href="#" class="list-group-item list-group-item-action">product</a>
         </aside>
-         <div class="container">
-                    <div class="card-container row">
-                        <div class="col-sm-12 col-md-4 col-lg-3">
-                            <div class="card">
-                                <img src="https://unsplash.it/200/200?id=1" class="card-img-top" alt="img-1">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                        the
-                                        card's
-                                        content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-12 col-md-4 col-lg-3">
-                            <div class="card">
-                                <img src="https://unsplash.it/200/200?id=2" class="card-img-top" alt="img-2">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                        the
-                                        card's
-                                        content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4 col-lg-3">
-                            <div class="card">
-                                <img src="https://unsplash.it/200/200?id=3" class="card-img-top" alt="img-3">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                        the
-                                        card's
-                                        content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4 col-lg-3">
-                            <div class="card">
-                                <img src="https://unsplash.it/200/200?id=3" class="card-img-top" alt="img-4">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                        the
-                                        card's
-                                        content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div class="footer text-center" >
-                        <p>Footer</p>
-                      </div>
-        
+      </div>
+      <div class="col-lg-10">
+        <div class="card-container row">
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="https://unsplash.it/200/200?id=1" class="card-img-top" alt="img-1">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                  the
+                  card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="https://unsplash.it/200/200?id=2" class="card-img-top" alt="img-2">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                  the
+                  card's
+                  content.</p>
+                <a href=" ./content.html" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="https://unsplash.it/200/200?id=3" class="card-img-top" alt="img-3">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                  the
+                  card's
+                  content.</p>
+                <a href=" ./modal.html" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="https://unsplash.it/200/200?id=3" class="card-img-top" alt="img-4">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                  the
+                  card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Footer</p>
+
+    <ul class="nav nav-pills nav-fill">
+
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
+        aria-controls="offcanvasBottom">Toggle bottom offcanvas</button>
+
+      <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body small">
+          contact us information Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officia rem eligendi
+          incidunt eaque dolore illum fugit doloribus pariatur id suscipit fugiat
+          rerum quibusdam in, ut reiciendis laboriosam! Ex, corporis.
+        </div>
+      </div>
+      <li class="nav-item">
+        <a class="nav-link" href="#">link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"> link2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="./submit.html" tabindex="-1" aria-disabled="true">submit</a>
+      </li>
+    </ul>
+  </div>
 
 
 
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <!-- Optional JavaScript; choose one of the two! -->
 
-   
-  </body>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
 </html>
