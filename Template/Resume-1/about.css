@@ -1,36 +1,106 @@
 body,html{
     display: block;
 }
+body {
+    margin: 0;
+    font-family:sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434a54;
+    background-color: #f5f7fa;
+}
+.about-section {
+    padding:2px 2px;
+}
 .about{
-    font-family: 'Roboto', sans-serif;
-margin-bottom: 32px;
-margin-top: 0;
-font-weight: 600;
-line-height: 1.2;
-}
-p{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-::after, ::before {
-    box-sizing: border-box;
-}
-.mt-2{
-    margin-top: 1rem;
-}
-.row{ 
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: block;
+display: flex;
     flex-wrap: wrap;
+    margin:3px 2px;
+    flex-direction: column;
 }
-.pb-1 {
-    padding-bottom: .5rem;
-}
-.text-secondary {
-    color: #656d78;
+.col{
+    width: 100%;
+    max-width: 100%;
+    padding:0px 2px;
+    margin-top:2px;
 }
 
+
+
+h2 {
+    display: block;
+    font-size: 25px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin:2px 2px;
+
+}
+p{
+
+
+    display: block;
+    margin:2px 2px;
+    box-sizing: border-box;
+}
+.about-value {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding:0px 2px;
+    margin-top:2px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+   margin:1px 2px;
+    box-sizing: border-box;}
+.section{
+    width:100%;
+    max-width: 100%;
+    margin-top: 2px;
+    padding:3px 3px;
+}
+.name{
+    
+        padding-bottom: .5rem!important;
+        box-sizing: border-box;
+}
+.text {
+    color: #656d78!important;
+
+    padding-bottom: .5rem!important;
+}
+.value{
+    width:100%;
+    max-width: 100%;
+    margin-top: 2px;
+    padding:2px 2px;
+
+}
+@media screen and (min-width: 700px) {
+    .about-section{flex-direction: row;
+        position: relative;
+        padding:0px 3px;}
+        .col{
+            flex:0 0 auto;
+            width:50%;
+        }
+
+.about-value{
+    margin:0px 2px;
+    width:40%;
+    flex:0 0 auto;
+    position: absolute;
+    top:3px;
+    right:10px;
+}
+.section{
+
+    width: 30%;
+}
+.value{
+    width: 38%;
+}
+}
