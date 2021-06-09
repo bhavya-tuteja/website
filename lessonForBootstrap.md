@@ -8,7 +8,7 @@ Bootstrap(50%-60%) code coverage
         --- nav
         --- carousal
         --- card
-        --- accordion
+        --- accordion   
         --- tab bar
         --- modal
 html + bootstrap boilerplate
