@@ -11,6 +11,27 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    <div class="container">
+      <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+      
+      <div class="row">
+        <div class="col-md-8">.col-md-8</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+      </div>
+    
+      <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+      <div class="row">
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+      </div>
+    
+      <!-- Columns are always 50% wide, on mobile and desktop -->
+      <div class="row">
+        <div class="col-6">.col-6</div>
+        <div class="col-6">.col-6</div>
+      </div>
+    </div>
     <nav class="navbar sticky-top navbar-light bg-light">
         <div class="container-fluid" style="background-color: black; color: white;">
           <a class="navbar-brand" href="#">Sticky top</a>
