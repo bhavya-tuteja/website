@@ -121,16 +121,16 @@ rounded rounded-start
 rounded rounded-end
 
 
-<!-- display
+display
 d-flex  --- flex (d-xs-flex,d-sm-flex,d-lg-flex-d-xl-flex-d-xxl-flex)
 d-none  --- hide the (element,tag) content
 d-block --- show the (element,tag) content
 
-flex-direction :row,col
+flex-direction :row,col(flex-sm-row)
 d-flex flex-row
 d-flex flex-column
 
-d-flex flex-lg-row flex-sm-column -->
+d-flex flex-lg-row flex-sm-column
 
 
 
@@ -144,3 +144,66 @@ only for tablet
 d-none d-md-block d-lg-none
 
 
+
+Justify content  for x-axis
+d-flex justify-content-center(between,around,evenly)
+d-flex justify-content-(sm,md,lg,xl,xxl)-center
+
+Align Items  for y-axis
+d-flex align-items-center(stretch,baseline,start)
+d-flex align-items-(sm,md,lg,xl,xxl)-center
+
+Align Self for specific content
+align-self-start(stretch,baseline,start)
+align-self-(sm,md,lg,xl,xxl)-center
+
+Wrap content
+d-flex flex-wrap
+d-flex flex-(sm,md,lg,xl,xxl)-wrap
+
+Order
+order-0,5
+order-(sm,md,xl,xxl)-0,5
+Additionally there are also responsive .order-first and .order-last classes that change the order of an element by applying order: -1 and order: 6, respectively.
+
+Text selection
+user-select-(all,none)
+
+Overflow
+overflow-(auto,hidden,scroll)
+Position
+position-(static,absolute,relative,sticky,fixed)
+(top,start,bottom,end)-0-50,100
+translate-middle for center of the content
+
+Shadows
+shadow-(none,sm,lg)
+
+Width
+w-(25,50,75,100,auto)
+Max-width
+mw-100
+Height
+h-(25,50,75,100,auto)
+Max-Height
+mh-100
+
+text alignment
+text-(start,center,end,wrap,break,lowercase,uppercase,capitalize)
+text-(sm,md,lg,xl,xxl)-(start,center,end)
+
+font size
+fs-(1,6)
+font weight
+fw-(bold,bolder,normal,light,lighter,italic,normal)
+
+Line Height
+lh-(1,sm,base,lg)
+
+Text Decoration
+text-decoration-(none,underline,line-through)
+
+opacity,invisible,d-none
+Visibility
+visible,invisible
+opacity-(0,5)
