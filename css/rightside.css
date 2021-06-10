@@ -47,38 +47,3 @@ height: 100vh;
     color: violet;
     grid-area: footer;
 }
-.menu{
-display: flex;
-justify-content: space-between;
-align-items: center;
-list-style: none;
-margin: 10px;
-}
-.menu-item{
-    flex-basis: 5%;
-    
-    color: tomato;
-    height: 100%;
-}
-.menu-item:hover{
-    background-color: turquoise;
-    color: violet;
-    cursor: pointer;
-}
-.container{
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 10% 80% 10%;
-    grid-template-areas: "header header header"
-    "left-side main right-side"
-    "footer footer footer";
-    display: grid;
-    
-height: 100vh;
-}
-.first{
-    float: right;
-
-}
-.second{
-    float: left;
-}
