@@ -1,0 +1,23 @@
+h2{
+    color: #252e3e;
+   
+    font-family: 'Roboto',sans-serif;
+}
+h6{
+        color: #f40;
+        font-size: 20px;
+        font-family: 'Roboto',sans-serif;
+        
+    
+}
+p{
+    color: #252e3e;
+    line-height: 1.5;
+    font-family: 'Roboto',sans-serif;
+     display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+    
