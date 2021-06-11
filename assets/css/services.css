@@ -1,5 +1,5 @@
 .services{
-    background-color: var(--white );
+    background-color: var(--light-grey );
     color: var(--white);
 }
 .content{
@@ -64,7 +64,8 @@ color:var(--grey );
 font-display: swap;
 display: block;
 margin-top: 0;
-margin-left:-26px;
+margin-left:-36px;
+padding:-3px;
 }
 
 
