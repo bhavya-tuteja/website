@@ -1,0 +1,51 @@
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-sm-12{
+    position: relative;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+
+.menu_logo{
+    padding:4px;
+    text:center;
+    position: relative;
+}
+.menu_logo img {
+    height: 40px;
+    position: absolute;
+left:10px;
+bottom:-50px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+vertical-align: middle;
+    box-sizing: border-box;}
+.heading{
+    font-size:15px;
+color: var(--darker-black);
+}
+.menu_logo .heading{
+    position: absolute;
+    right:110px;
+    bottom: -44px;
+
+
+}
+
