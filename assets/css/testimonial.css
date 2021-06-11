@@ -33,11 +33,12 @@
         margin-top: 10px;
         padding:30px;
         border-radius: 32px;
+        justify-content: center;
       }
       .country-image img{
           display:block;
-          width: 200px;
-          height: 115px;
+          width: 130px;
+          height: 89px;
           border-radius:21px;
          }
       
