@@ -1,0 +1,9 @@
+@import url('./fonts.css');
+@import url('./colors.css');
+
+body{
+    font-family: var(--bs-font-primary);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--grey);
+}
