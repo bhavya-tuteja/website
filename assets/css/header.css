@@ -1,0 +1,6 @@
+.bg-orange{
+    background-color: var(--orange);
+}
+.btn-focus:focus{
+    box-shadow:none;
+}
