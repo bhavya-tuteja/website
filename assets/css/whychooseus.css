@@ -1,0 +1,30 @@
+body,html{
+margin: 0px;
+padding: 0px;
+height: 100px;
+
+}
+
+.why{   
+    color:var(--orange);
+    font-size: 1rem;
+    padding: 30px 30px;
+    
+}
+.heading{
+color:var(--dark-black);
+font:24px;
+font-style: normal;
+margin-left:30px;
+    }
+    .icon{
+        color:var(--orange);
+    }
+    .card-text{
+        color:var(--grey) ;
+        font-size: 18px;
+    }
+    .card-title{
+        color:var(--country-bg);
+        font-size: 20px;
+    }
