@@ -20,15 +20,32 @@
     padding-right: 50px;
     padding-left: 10px;
 }
-.primary-font{
-    text-align: center;
-    color: var( --darker-black);
-    font-family: sans-serif;
-}
+
 .menu_logo{
     padding:4px;
+    text:center;
+    position: relative;
 }
-.menu_logo  i {
-    font-size: 24px;
+.menu_logo img {
+    height: 40px;
+    position: absolute;
+left:10px;
+bottom:-50px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+vertical-align: middle;
+    box-sizing: border-box;}
+.heading{
+    font-size:15px;
+color: var(--darker-black);
+}
+.menu_logo .heading{
+    position: absolute;
+    right:126px;
+    bottom: -44px;
+
+
 }
 
