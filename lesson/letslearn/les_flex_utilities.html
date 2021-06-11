@@ -14,6 +14,13 @@
     />
 
     <title>LESSON UTILITIES(FLEX)</title>
+    <style>
+      div {
+        background-color: lightpink;
+        color: blue;
+        border: 0.5rem solid white;
+      }
+    </style>
   </head>
   <body>
     <h1>Lesson in Utilities(flex)</h1>
@@ -21,8 +28,8 @@
     <div class="d-inline-flex p-2 bd-highlight">
       I'm an inline flexbox container!
     </div>
-    <br />Note: justify-content-start is same as flex-row
-    <div class="d-flex justify-content-start">
+    <br />Note: justify-content-start is same as flex-row<br />
+    <div class="d-inline-flex justify-content-start">
       <!-- <div class="d-flex flex-row bd-highlight mb-3">-->
       <div class="p-2 bd-highlight">Flex item 1</div>
       <div class="p-2 bd-highlight">Flex item 2</div>
@@ -30,7 +37,7 @@
       <!-- </div> -->
     </div>
     <br />
-    Note: justify-content-end is similar to flex-row-reverse
+    Note: justify-content-end is similar to flex-row-reverse<br />
     <!--add reverse in the class-->
     <div class="d-flex justify-content-end">
       <!-- <div class="d-flex flex-row-reverse bd-highlight"> -->
@@ -46,13 +53,14 @@
       <div class="p-2 bd-highlight">Flex item 2</div>
       <div class="p-2 bd-highlight">Flex item 3</div>
     </div>
+    Note: justify-content-between will create gaps between the three items
     <div class="d-flex justify-content-between">
-      ...
       <div class="p-2 bd-highlight">Flex item 1</div>
       <div class="p-2 bd-highlight">Flex item 2</div>
       <div class="p-2 bd-highlight">Flex item 3</div>
     </div>
     <!--d-flex flex-column will change column wise-->
+    Note:
     <div class="d-flex flex-column bd-highlight mb-3">
       <div class="p-2 bd-highlight">Flex item 1</div>
       <div class="p-2 bd-highlight">Flex item 2</div>
