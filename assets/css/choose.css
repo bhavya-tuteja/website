@@ -1,0 +1,51 @@
+.choose{
+    background-color: var(--country-bg);
+    color: var(--white);
+}
+.section-tittle{
+    width: 100%;
+    position: relative;
+}.section-title h5 {
+    color: #f40;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+.section-tittle h2{ 
+    color:var(--black);
+}
+.Tittle .heading {
+    color: #0d2958;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+}
+.tittle{
+    padding:5px;
+}
+.content{
+    font-weight: 400;
+    margin-bottom:38px;
+    color: #565872;
+    background-color: var(--white);
+    justify-content: right;
+}
+p{
+    padding:40px; 
+    font-family: sans-serif;
+    margin-left:45px;
+}
+.content-image{
+    margin-top:-149px;
+    background: 0 0;
+    float: left;
+    display: flex;
+    justify-content: left;
+    
+.content-image img{
+    display: block;
+    width:30px;
+    height:40px;
+}
