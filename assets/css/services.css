@@ -1,6 +1,5 @@
 .services{
-    background-color: var(--light-grey );
-    color: var(--white);
+    background-color: var( --white);
 }
 .content{
     font-size: 14px;
@@ -9,10 +8,12 @@
     letter-spacing: 1.5px;
     font-weight: 400;
     color: #f40;
+    padding:14px;
 }
-h4{color:var(--country-bg );
-    font-size: 10px;
+h4{color:var( --black);
+    font-size:25px;
     font-family: sans-serif;
+    letter-spacing: .2px;
 
 }
 .card-container .row{
@@ -30,7 +31,7 @@ h4{color:var(--country-bg );
 }
 .card{
     margin-bottom: 5px;
-    background:var(--white );
+    color:var(--white );
     padding: 35px 30px 35px;
 }
 .service-img{
@@ -50,11 +51,13 @@ h4{color:var(--country-bg );
   
 .service-tittle{
 padding-bottom: 5px;
-margin-left:-10px;
-font-size: 2px;
+margin-left:-1px;
+margin-top: 18px;
+font-style: normal;
+    font-weight: inherit;
 box-sizing: border-box;
 font-family: sans-serif;
-color: var(--darker-black);
+color:#f40;
 }
 p{
 font-family: Roboto,Arial, Helvetica, sans-serif;
@@ -64,8 +67,8 @@ color:var(--grey );
 font-display: swap;
 display: block;
 margin-top: 0;
-margin-left:-36px;
-padding:-3px;
+margin-left:-14 px;
+font-size:20px;
 }
 
 
