@@ -1,0 +1,74 @@
+.contact{
+    background-color: var(--white );
+}
+.page{
+    color:var(--black);
+    font-size: 28px;
+}
+.form-group{
+ margin-bottom: 20px;
+}
+.col-md-6{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.control{
+display: block;
+width: 100%;
+height: 46px;
+padding: 8px 12px;
+font-size: 15px;
+line-height: 1.42857143;
+color: #555;
+background-color:var(--white);
+border: 1px solid #bbb;
+margin-left:2px;
+margin-bottom: 12px;
+}
+.message{
+    width: 100%;
+    height:60%;
+    margin-top: 5px;
+}
+.col-md-12{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.btn{
+background-color:var(--orange);
+    display: inline-block;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 0;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top:15px;
+}
+.container{
+
+margin-top: 2px;
+}
+h1{
+    color:var(--black);
+    font-size:15px;
+    margin-top:5px;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+}
+.contact-block{
+    color:var(--white);
+    font-size:15px;
+    margin-top: 2px;
+}
+.contact-block ul li{
+    color:var(--black);
+    font-size: 17px;
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+.contact-block ul li i{
+    color:var(--orange);
+
+}
