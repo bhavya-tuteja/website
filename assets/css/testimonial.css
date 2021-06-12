@@ -11,6 +11,10 @@
     color: var(--light-grey);
     padding-top: 12px;
 }
+h1{
+    font-size: 15px;
+    color: var(--white);
+}
 .card-container .row{
     display: flex;
     flex-wrap: wrap;
@@ -44,12 +48,17 @@
          }
       
 .country-tittle{
-    padding-bottom: 5px;
+    padding-bottom:17px;
     text-align: center;
 font-size: 2px;
 box-sizing: border-box;
 font-family: sans-serif;
     color: var(--darker-black);
+}
+ .country-tittle h2{
+    font-size: 27px;
+    font-family: sans-serif;
+
 }
 p{
     font-family: Roboto,Arial, Helvetica, sans-serif;
@@ -60,9 +69,7 @@ p{
     display: block;
     margin-top: 0;
     margin-left:-14px;
-    text-align: center;
-}
-
+    text-align: center;}
 
     .country-btn a{
         color: #565872;

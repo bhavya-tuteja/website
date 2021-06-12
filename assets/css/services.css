@@ -34,24 +34,22 @@ h4{color:var( --black);
     color:var(--white );
     padding: 35px 30px 35px;
 }
-.service-img{
-    display:flex;
-    margin-top: 10px;
-    padding:6px;
-    border-radius:20px;
-    text-align: left;
-    margin-bottom: 10px;
-  }
-  .service-img img{
-      display:block;
-      width:60px;
-      height: 60px;
-      border-radius:10px;
-     }
+
+  .service-icons{
+    color:var(--orange);
+    margin-bottom: 25px;
+    font-size: 56px;
+}
+
+i{
+    font-style: normal;
+    font-weight: inherit;
+}
+
   
 .service-tittle{
 padding-bottom: 5px;
-margin-left:-1px;
+margin-left:-28px;
 margin-top: 18px;
 font-style: normal;
     font-weight: inherit;
@@ -60,15 +58,11 @@ font-family: sans-serif;
 color:#f40;
 }
 p{
-font-family: Roboto,Arial, Helvetica, sans-serif;
-font-weight:200;
-font-style: normal;
-color:var(--grey );
-font-display: swap;
-display: block;
-margin-top: 0;
-margin-left:-14 px;
-font-size:20px;
+    font-size: 20px;
+    color: var(--grey);
+    
+    font-weight: 200;
+    
 }
 
 
