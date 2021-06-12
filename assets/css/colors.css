@@ -11,4 +11,17 @@
     --bs-font-sans-serif:'Roboto',Arial, Helvetica, sans-serif;
     --bs-font-primary: 'Nunito', sans-serif;
     --bs-font-secondary: 'Roboto';
+    --color:#f40;
+    --orange : #f40;
+    --white : #fff;
+    --black : #29345c;
+    --grey : #565872;
+    --light-grey : #a6adbc;
+    --dark-black : #252e3e;
+    --darker-black : #1e232c;
+    --country-bg : #10223f;
+    --shadow : 1px 1px 15px rgb(0 0 0 / 12%);
+    --bs-font-ssans-serif:'Roboto',Arial, Helvetica, sans-serif;
+    --bs-font-primary: 'Nunito', sans-serif;
+    --bs-font-secondary: 'Roboto';
 }
