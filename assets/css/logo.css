@@ -29,7 +29,7 @@
 .menu_logo img {
     height: 40px;
     position: absolute;
-left:10px;
+left:58px;
 bottom:-50px;
 }
 img {
@@ -43,7 +43,7 @@ color: var(--darker-black);
 }
 .menu_logo .heading{
     position: absolute;
-    right:110px;
+    right:63px;
     bottom: -44px;
 
 
