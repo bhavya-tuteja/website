@@ -1,4 +1,5 @@
 :root{
+    --orange : #f40;
     --white : #fff;
     --black : #29345c;
     --grey : #565872;
@@ -10,5 +11,4 @@
     --bs-font-sans-serif:'Roboto',Arial, Helvetica, sans-serif;
     --bs-font-primary: 'Nunito', sans-serif;
     --bs-font-secondary: 'Roboto';
-color:#f40;
 }
