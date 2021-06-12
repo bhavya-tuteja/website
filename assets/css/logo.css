@@ -26,26 +26,7 @@
     text:center;
     position: relative;
 }
-.menu_logo img {
-    height: 40px;
-    position: absolute;
-left:10px;
-bottom:-50px;
+.menu_logo i{
+    font-size: 25px;
+    color: var(--orange);
 }
-img {
-    max-width: 100%;
-    height: auto;
-vertical-align: middle;
-    box-sizing: border-box;}
-.heading{
-    font-size:15px;
-color: var(--darker-black);
-}
-.menu_logo .heading{
-    position: absolute;
-    right:110px;
-    bottom: -44px;
-
-
-}
-
