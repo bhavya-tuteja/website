@@ -1,31 +1,68 @@
-body,html{
-    margin: 0px;
-    padding: 0px;
-    height: 100px;
-    
-    }
-    
-    .why{   
-        color:var(--orange);
-        font-size: 1rem;
-        padding: 30px 30px;
-        
-    }
-    .heading{
-    color:var(--dark-black);
-    font:24px;
-    font-style: normal;
-    margin-left:30px;
-        }
-        .icon{
-            color:var(--orange);
-        }
-        .card-text{
-            color:var(--grey) ;
-            font-size: 18px;
-        }
-        .card-title{
-            color:var(--country-bg);
-            font-size: 20px;
-        }
-    
+#whychooseus {
+  background: var(--country-bg);
+  color: var(--white);
+  opacity: 0.85;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+#whychooseus .main-section {
+  background-color: var(--white);
+  padding: 2em 2em;
+}
+#whychooseus h1 {
+  color: var(--black);
+  font-size: 1.5em;
+}
+#whychooseus .why {
+  color: var(--orange);
+  font-size: 1rem;
+  padding: 1em 0px;
+    letter-spacing: 1.5px;
+}
+#whychooseus .heading {
+  color: var(--dark-black);
+  font: 24px;
+  font-style: normal;
+  margin-left: 30px;
+}
+#whychooseus .icon {
+  color: var(--orange);
+}
+#whychooseus .icon .far,
+#whychooseus .icon .fas{
+    font-size: 2.5em;
+}
+#whychooseus .card-text {
+  color: var(--grey);
+  font-size: 18px;
+}
+#whychooseus .card-title {
+  color: var(--country-bg);
+  font-size: 20px;
+  text-align: left;
+    margin: 0 0 10px;
+}
+#whychooseus .main-section,
+#whychooseus .icon+div{
+    position: relative;
+}
+#whychooseus .icon+div::after{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: -25%;
+    width: 120%;
+    background-color: var(--line-color);
+    height: 1px;
+}
+#whychooseus .main-section .row .col-10:last-child::after{
+    content: none;
+}
+#whychooseus .main-section::after{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    background-color: var(--orange);
+    height: 10px;
+}
