@@ -86,6 +86,6 @@ color: var(--orange);
 
 .services .main-btn a{
     color: var(--grey);
-font-size: 14px;
-margin-right: 2px;
+    font-size: 14px;
+    margin-right: 2px;
 }

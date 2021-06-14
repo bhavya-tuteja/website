@@ -18,3 +18,12 @@ body{
 .owl-stage{
     display: flex;
 }
+#crousal .carousel-content{
+    text-align: left;
+    transform: translateY(-150%);
+    background-color: rgba(0,0,0,0.5);
+}
+#crousal .btn-contact-us{
+    background-color: var(--orange);
+    color: var(--white);
+}

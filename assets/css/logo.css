@@ -1,5 +1,4 @@
-
-.container{
+.logo .container{
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -7,26 +6,36 @@
     margin-left: auto;
 }
 
-.row{
+.logo .row{
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
 }
-.col-sm-12{
+.logo .col-sm-12{
     position: relative;
     width: 100%;
     padding-right: 50px;
     padding-left: 10px;
 }
 
-.menu_logo{
+.logo .menu_logo{
     padding:4px;
-    text:center;
+    text-align:center;
     position: relative;
 }
-.menu_logo i{
+.logo .menu_logo i{
     font-size: 25px;
     color: var(--orange);
+}
+@media (min-width: 992px) {
+    .logo{
+        height: 48px;
+        background-color: var(--country-bg);
+        color: var(--white);
+    }
+}
+.logo .social-icons{
+
 }

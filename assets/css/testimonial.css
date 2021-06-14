@@ -4,7 +4,7 @@
   opacity: 0.85;
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
-.testimonial-country {
+.testimonial .testimonial-country {
   font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -13,7 +13,7 @@
   color: var(--light-grey);
   padding-top: 12px;
 }
-.testimonial-heading h1::after {
+.testimonial .testimonial-heading h1::after {
   content: "";
   position: absolute;
   width: 60px;
@@ -28,37 +28,37 @@
   color: var(--white);
   position: relative;
 }
-.card-container .row {
+.testimonial .card-container .row {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
 }
-.col-md-6 {
+.testimonial .col-md-6 {
   position: relative;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
 }
-.card-container .card {
+.testimonial .card-container .card {
   margin-bottom: 5px;
   background: var(--white);
   padding: 35px 30px 35px;
   border-radius: 0;
   margin-top: 0px;
 }
-.country-image {
+.testimonial .country-image {
   display: inline-flex;
   justify-content: center;
 }
-.country-image img {
+.testimonial .country-image img {
   display: block;
   width: 130px;
   height: 89px;
    border: 4px solid var(--border-color);
 }
 
-.country-tittle {
+.testimonial .country-tittle {
   padding-bottom: 17px;
   text-align: center;
   font-size: 2px;
@@ -66,10 +66,10 @@
   font-family: sans-serif;
   color: var(--darker-black);
 }
-.country-tittle h2 {
+.testimonial .country-tittle h2 {
   font-size: 20px;
 }
-.country-content p {
+.testimonial .country-content p {
   font-weight: 200;
   font-style: normal;
   color: var(--grey); 
@@ -78,7 +78,7 @@
   text-align: center;
 }
 
-.country-btn a {
+.testimonial .country-btn a {
   color: #565872;
   font-size: 14px;
   display: inline-flex;
