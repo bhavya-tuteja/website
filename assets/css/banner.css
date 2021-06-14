@@ -1,0 +1,25 @@
+.img{
+    background-color:  rgba(18,41,76,.8);;
+}
+.container-home{
+    position: relative;
+    
+}
+.contact{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.home{
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.p{
+    position: absolute;
+    top: 45px;
+    left: 100px;
+}
