@@ -1,0 +1,74 @@
+#contact-form .contact{
+    background-color: var(--white );
+}
+#contact-form .page{
+    color:var(--black);
+    font-size: 28px;
+}
+#contact-form .form-group{
+ margin-bottom: 20px;
+}
+#contact-form .col-md-6{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#contact-form .control{
+display: block;
+width: 100%;
+height: 46px;
+padding: 8px 12px;
+font-size: 15px;
+line-height: 1.42857143;
+color: #555;
+background-color:var(--white);
+border: 1px solid #bbb;
+margin-left:2px;
+margin-bottom: 12px;
+}
+#contact-form .message{
+    width: 100%;
+    height:60%;
+    margin-top: 5px;
+}
+#contact-form .col-md-12{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+#contact-form .btn{
+    background-color:var(--orange);
+    display: inline-block;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 0;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top:15px;
+}
+#contact-form .container{
+
+margin-top: 2px;
+}
+#contact-form h1{
+    color:var(--black);
+    font-size:15px;
+    margin-top:5px;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+}
+#contact-form .contact-block{
+    color:var(--white);
+    font-size:15px;
+    margin-top: 2px;
+}
+#contact-form .contact-block ul li{
+    color:var(--black);
+    font-size: 17px;
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+#contact-form .contact-block ul li i{
+    color:var(--orange);
+
+}

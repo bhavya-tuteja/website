@@ -1,13 +1,29 @@
 @import url('./fonts.css');
 @import url('./colors.css');
-
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     font-family: var(--bs-font-primary);
     font-weight: 400;
     font-style: normal;
     color: var(--grey);
 }
-#crousal{
+#crousal,
+#crousal #carouselExampleCaptions{
     min-height: 400px;
     background-color: var(--grey);
+}
+.owl-stage{
+    display: flex;
+}
+#crousal .carousel-content{
+    text-align: left;
+    transform: translateY(-150%);
+    background-color: rgba(0,0,0,0.5);
+}
+#crousal .btn-contact-us{
+    background-color: var(--orange);
+    color: var(--white);
 }

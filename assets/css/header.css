@@ -4,3 +4,23 @@
 .btn-focus:focus{
     box-shadow:none;
 }
+@media (min-width: 992px) {
+   .bg-orange{
+      background-color: var(--white); 
+      color: var(--black) !important;
+      height: 96px;
+   }
+   .bg-orange .text-light,
+   .bg-orange .text-white{
+       color: var(--black) !important;
+   }
+   .bg-orange .dropdown-item:hover,
+   .bg-orange .nav-link:hover,
+   .bg-orange i{
+    color: var(--orange) !important;
+   }
+   .bg-orange .navbar-brand{
+        width: 10%;
+        margin-left: 14em !important;
+   }
+}
