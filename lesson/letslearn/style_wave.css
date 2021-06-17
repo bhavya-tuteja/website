@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.maindiv {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.maindiv h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+.maindiv p {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
