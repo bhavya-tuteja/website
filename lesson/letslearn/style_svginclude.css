@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  padding: 0 0 0 20px;
+}
+.container {
+  background: cornflowerblue;
+  border: 1px solid grey;
+  width: 500px;
+  margin: 500px;
+  margin-left: 20px;
+}
