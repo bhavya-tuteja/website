@@ -1,0 +1,40 @@
+ #success-story .story{
+    background-color:var(--country-bg);
+}
+
+#success-story .story-text h2{
+font-size: 36px;
+    color:var(--white);
+    display: inline-block;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+} 
+#success-story .story-text h3{
+font-size: 40px;
+    margin-bottom: 0;
+    font-size: 30px;
+    color:var(--white);
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#success-story .story-tittle h4{
+    color:var(--white);
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#success-story .social-icons i{
+    font-size: 46px;
+    color: var(--white);
+    margin-bottom: 32px;
+    margin-top: 68px;
+    display: block;
+}
+#success-story .col-sm-3 {
+    padding:5px;
+
+}
