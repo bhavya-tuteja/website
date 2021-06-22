@@ -34,12 +34,6 @@
   margin-right: -15px;
   margin-left: -15px;
 }
-.testimonial .col-md-6 {
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
 .testimonial .card-container .card {
   margin-bottom: 5px;
   background: var(--white);
