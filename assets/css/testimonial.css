@@ -79,3 +79,23 @@
   text-align: center;
   margin-right: 2px;
 }
+@media (max-width:767px){
+#testimonial .card .country-image img{
+    float: none;
+    margin-right: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.testimonial{
+  width: 100%;
+}
+ #testimonial .card-container{
+  padding:0 5px;
+}
+ #testimonial .row{
+  flex-wrap: wrap;
+}
+#testimonial .card .country-content .country-tittle{
+   overflow: hidden;
+}
+}

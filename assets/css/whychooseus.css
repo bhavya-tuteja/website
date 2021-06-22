@@ -66,3 +66,29 @@
     background-color: var(--orange);
     height: 10px;
 }
+@media (max-width:1024x){
+.whychooseus .container{
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+
+}
+.whychooseus .container img {
+  width:100%;
+
+}
+.whychooseus .main-heading{
+  margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    text-align: left;
+}
+.whychooseus .main-heading .main-section{
+  padding: 10px 30px;
+  margin-bottom: 0;
+}
+.whychooseus .row{
+  margin-bottom: 0;
+}
+}
