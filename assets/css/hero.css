@@ -14,11 +14,11 @@
     margin-left: -18px;
     margin-right: -39px;
 }
-.element{
+#hero-img .element{
     position:relative;
     margin-left: -1px;
 }
-.container{
+#hero-img .container{
     background-color:var(--white);
     border-style: solid;
     border-width: 0;
@@ -27,7 +27,7 @@
     top:5px;
 
 }
-.year-box{
+#hero-img .year-box{
     padding: 15px 20px;
 }
     

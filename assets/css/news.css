@@ -54,3 +54,8 @@
     font-style: normal;
     font-weight: 500;
 }
+@media (min-width : 992px) {
+  #news .card {
+    flex-basis: 30%;
+  }
+}

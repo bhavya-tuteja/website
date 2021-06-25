@@ -56,6 +56,7 @@ margin-top: 2px;
     font-size:15px;
     margin-top:5px;
     font-family: Roboto,Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 #contact-form .contact-block{
     color:var(--white);

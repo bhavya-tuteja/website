@@ -45,14 +45,14 @@ class myComponent {
       e.ele.append(e.res);
     });
     $(document).ready(function () {
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        // margin: 2,
-        // nav: true,
-        // dots: true,
-        autoplay: true,
-        autoWidth: true,
-      });
+      // $(".owl-carousel").owlCarousel({
+      //   loop: true,
+      //   // margin: 2,
+      //   // nav: true,
+      //   // dots: true,
+      //   autoplay: true,
+      //   autoWidth: true,
+      // });
     });
   }
   error(r) {
