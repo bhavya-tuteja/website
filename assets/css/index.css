@@ -10,11 +10,3 @@ body{
     font-style: normal;
     color: var(--grey);
 }
-#crousal,
-#crousal #carouselExampleCaptions{
-    min-height: 400px;
-    background-color: var(--grey);
-}
-.owl-stage{
-    display: flex;
-}

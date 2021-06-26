@@ -1,18 +1,41 @@
-
-
-.containet-form{
-    margin: 0px 50px 0px 50px;
-    background-color: #f6f6f6;
-    color: #555;
+body{
+    padding: 0px 10px 0px 10px;
 }
+
 h2{
     padding: 10px;
     margin: 0px 25px 0px 25px;
     color: #0d2958;
 }
+
+
 .container{
+    position: relative;
     background-color: #f6f6f6;
 }
-body{
-    padding: 0px 10px 0px 10px;
+.form1{
+    position: absolute;
+    top: 170px;
+left: 600px;
+width: 35%;
+}
+.form2{
+    position: absolute;
+    top: 170px;
+    left: 930px;
+    width: 25%;
+}
+.form3{
+    position: absolute;
+    top: 420px;
+    left: 600px;
+    background-color: #f40;
+    color: white;
+    padding: 10px;
+}
+.form4{
+    position: absolute;
+    top: 50px;
+    left: 565px;
+    
 }

@@ -1,19 +1,19 @@
-.contact{
+#contact-form .contact{
     background-color: var(--white );
 }
-.page{
+#contact-form .page{
     color:var(--black);
     font-size: 28px;
 }
-.form-group{
+#contact-form .form-group{
  margin-bottom: 20px;
 }
-.col-md-6{
+#contact-form .col-md-6{
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
 }
-.control{
+#contact-form .control{
 display: block;
 width: 100%;
 height: 46px;
@@ -26,19 +26,19 @@ border: 1px solid #bbb;
 margin-left:2px;
 margin-bottom: 12px;
 }
-.message{
+#contact-form .message{
     width: 100%;
     height:60%;
     margin-top: 5px;
 }
-.col-md-12{
+#contact-form .col-md-12{
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
 
 }
-.btn{
-background-color:var(--orange);
+#contact-form .btn{
+    background-color:var(--orange);
     display: inline-block;
     color: #fff;
     padding: 12px 20px;
@@ -47,28 +47,29 @@ background-color:var(--orange);
     font-size: 14px;
     margin-top:15px;
 }
-.container{
+#contact-form .container{
 
 margin-top: 2px;
 }
-h1{
+#contact-form h1{
     color:var(--black);
     font-size:15px;
     margin-top:5px;
     font-family: Roboto,Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
-.contact-block{
+#contact-form .contact-block{
     color:var(--white);
     font-size:15px;
     margin-top: 2px;
 }
-.contact-block ul li{
+#contact-form .contact-block ul li{
     color:var(--black);
     font-size: 17px;
     margin-bottom: 15px;
     list-style-type: none;
 }
-.contact-block ul li i{
+#contact-form .contact-block ul li i{
     color:var(--orange);
 
 }

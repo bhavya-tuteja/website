@@ -3,6 +3,7 @@ class myComponent {
     this.url = "./Component/";
     this.alldata = [];
     this.browserClass = null;
+    this.title = "";
   }
   loadFile() {
     this.getAllComponents();
@@ -29,6 +30,7 @@ class myComponent {
   }
   getData(input) {
     const URI = `${this.url}${input.attr("data-component")}.html`;
+    this.title = this.title === "" ? input.attr("data-page") || "" : this.title;
     return new Promise((resolve, reject) => {
       $.get(URI)
         .done((res) => resolve({ res: res, ele: input }))
@@ -40,19 +42,19 @@ class myComponent {
   }
   sucess(r) {
     // console.log(r);
-    console.log("Load Files");
+    // console.log("Load Files");
     $.each(r, function (key, e) {
       e.ele.append(e.res);
     });
     $(document).ready(function () {
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        // margin: 2,
-        // nav: true,
-        // dots: true,
-        autoplay: true,
-        autoWidth: true,
-      });
+      // $(".owl-carousel").owlCarousel({
+      //   loop: true,
+      //   // margin: 2,
+      //   // nav: true,
+      //   // dots: true,
+      //   autoplay: true,
+      //   autoWidth: true,
+      // });
     });
   }
   error(r) {
@@ -75,12 +77,23 @@ class myComponent {
       this.browserClass = "edge";
     $("html").addClass(this.browserClass);
   }
+  afterLoadCall(title = false) {
+    $(document).ready(function () {
+      setTimeout(() => {
+        if (title) {
+          $(".breadcrumb>.breadcrumb-item.active").text(title);
+          $("#bold").text(title.toUpperCase());
+        }
+      }, 500);
+    });
+  }
 }
 const loadFiles = new myComponent();
 loadFiles.addBrowserClass();
 if (loadFiles.browserClass !== "saf") {
   loadFiles.loadFile();
   loadFiles.grabResult();
+  loadFiles.afterLoadCall(loadFiles.title);
 } else {
   console.log("this is safari b");
   loadFiles.loadFileInOldBrowser();

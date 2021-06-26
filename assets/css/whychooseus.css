@@ -4,6 +4,10 @@
   opacity: 0.85;
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
+#whychooseus .container img {
+width:800px;
+height:900px;
+}
 #whychooseus .main-section {
   background-color: var(--white);
   padding: 2em 2em;
@@ -49,7 +53,7 @@
     content: '';
     position: absolute;
     bottom: 0px;
-    left: -25%;
+    left: -20%;
     width: 120%;
     background-color: var(--line-color);
     height: 1px;
@@ -65,4 +69,24 @@
     width: 100%;
     background-color: var(--orange);
     height: 10px;
+}
+@media  (max-width:1024x){
+.whychooseus .container{
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+
+}
+
+
+.whychooseus .main-heading{
+  margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    text-align: left;
+}
+.whychooseus .main-heading .main-section{
+  padding: 10px 30px;
+  margin-bottom: 0;
+}
 }

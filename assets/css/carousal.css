@@ -1,0 +1,30 @@
+#carouselExampleCaptions .carousel-caption{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+#crousal .carousel-content{
+    transform: translate(-50%,-50%);
+    top: 50%;
+    position: absolute;
+    left: 39%;
+}
+
+#crousal,
+#crousal #carouselExampleCaptions{
+    min-height: 400px;
+    background-color: var(--grey);
+}
+.owl-stage{
+    display: flex;
+}
+#crousal .btn-contact-us{
+    background-color: var(--orange);
+    color: var(--white);
+}
+#crousal h1{
+    font-size: 56px;
+}
