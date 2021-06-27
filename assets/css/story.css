@@ -1,13 +1,28 @@
  #success-story .story{
     background-color:var(--country-bg);
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.row{
+    justify-content: space-around;
+    margin: 0px 80px;
 }
 
+.testimonial .testimonial-country h1{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    color: var(--light-grey);
+    padding-top: 12px;
+  }
+
 #success-story .story-text h2{
-font-size: 36px;
+font-size: 28px;
     color:var(--white);
     display: inline-block;
     padding-bottom: 0;
-    margin-bottom: 5px;
     box-sizing: border-box;
 } 
 #success-story .story-text h3{
@@ -23,18 +38,17 @@ font-size: 40px;
     text-transform: capitalize;
     font-size: 20px;
     margin-bottom: 10px;
-    font-weight: 400;
     letter-spacing: 1px;
 }
 
 #success-story .social-icons i{
-    font-size: 46px;
+    font-size: 36px;
     color: var(--white);
-    margin-bottom: 32px;
-    margin-top: 68px;
+    margin-bottom: 12px;
+    margin-top: 0px;
     display: block;
 }
 #success-story .col-sm-3 {
-    padding:5px;
+    margin:10px;
 
 }

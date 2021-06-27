@@ -10,9 +10,13 @@
     font-size: 1em;
     font-weight: 400;
     font-family: var(--bs-font-sans-serif);
-    font-style: normal;
-  
+    font-style: normal;  
 }
+
+.text-reset-btn p:hover{
+    color: #ff4400;
+}
+
 .footer i.fas{
     color: var(--orange);
 }
@@ -25,6 +29,12 @@
 .footer .social-btns i{
     color: var(--light-grey);
 }
+
+.footer .social-btns i:hover{
+    font-size: large;
+color: #ff4400;
+}
+
 .footer-bottom .copy-right-text{
     margin-bottom: 10px;
 }
@@ -35,11 +45,21 @@
     font-size: 1em;
     display: inline;
 }
+
+.footer-bottom ul.menu-footer-menu>li:hover{
+color: #ff4400;
+}
+
 .footer-bottom ul.menu-footer-menu a{
     color: var(--light-grey);
     font-size: 14px;
     text-decoration: none;
 }
+
+.footer-bottom ul.menu-footer-menu a:hover{
+    color: #ff4400;
+}
+
 .footer-bottom .copyright-social ul li:after{
     content: '/';
     color: var(--light-grey);
