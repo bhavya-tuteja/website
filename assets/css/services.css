@@ -1,5 +1,5 @@
 .services{
-    /* background-color: var( --white); */
+    background-color: var( --white);
 }
 #services-carousel .carousel-indicators{
         padding: 0 .5em;
@@ -45,8 +45,6 @@
 .services .row{
     display: flex;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
 }
 .services .col-md-4{
     position: relative;
@@ -90,4 +88,10 @@ color: var(--orange);
     color: var(--grey);
     font-size: 14px;
     margin-right: 2px;
+    text-decoration: none;
+}
+
+.services .main-btn a:hover{
+    color: #ff4400;
+    font-size: medium;
 }

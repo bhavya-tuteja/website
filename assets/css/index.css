@@ -4,6 +4,10 @@ html,body{
     margin: 0px;
     padding: 0px;
 }
+
+.about-content{
+    margin-bottom: 100px;
+}
 body{
     font-family: var(--bs-font-primary);
     font-weight: 400;
