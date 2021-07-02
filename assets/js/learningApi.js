@@ -1,14 +1,28 @@
 // $ == jquery
-let index = 0;
+let index = 0; var records=[]
 let url = "https://jsonplaceholder.typicode.com/posts";
 $(function () {
-  const addNewRowEle = $(".add-new-row");
+  //const addNewRowEle = $(".add-new-row");
+  const searchBtnEle = $("#search-btn");
+  searchBtnEle.click(handleSearch)
   // addNewRowEle.click(handleClick)
   //   addNewRowEle.click(fetchData);
   fetchData();
 });
-
-function handleRow(item) {
+function handleSearch(){
+  const searchInputEle = $("#search-input");
+//console.log(searchInputEle.val())
+//quam voluptatibus rerum veritatis
+const searchRecords=records.filter((item) => {
+   return item.title===searchInputEle.val()
+  //console.log(item);
+});
+console.log(searchRecords)
+searchRecords.map((item) => {
+  handleRow(item,true);
+});
+}
+function handleRow(item,isNew=false) {
   const rowEle = $("#row");
   rowEle.removeClass("d-none");
   index = item.id;
@@ -26,7 +40,14 @@ function handleRow(item) {
   newCol
     .find(".card-img-top")
     .attr("src", `https://unsplash.it/200?id=${index}`);
+    if(isNew===false)
   rowEle.append(newCol);
+  else
+  {
+    rowEle.html("")
+    rowEle.append(newCol);
+    index=0;
+  }
   $("#row .col-4").eq(index).fadeIn(2000);
 }
 function fetchData() {
@@ -43,6 +64,7 @@ function beforeSend() {
   $(".loader").fadeIn();
 }
 function success(items) {
+  records=items;
   items.map((item) => {
     handleRow(item);
   });
