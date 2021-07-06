@@ -21,7 +21,7 @@ console.log(searchRecords)
 searchRecords.map((item) => {
   handleRow(item,true);
 });
-}
+} 
 function handleRow(item,isNew=false) {
   const rowEle = $("#row");
   rowEle.removeClass("d-none");
