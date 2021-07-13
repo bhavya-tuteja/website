@@ -9,18 +9,21 @@ function App() {
       <p>This is line One.</p>
       <p><strong>How to work in react </strong></p>
       <ul>
-        <li>Now, work in this folder only.</li>
-        <li>The path is - D:\GIT\website\lesson\letslearn\my-website</li>
-        <li>To work in html do in App.js and save the file.</li>
-        <li>GO to cmd by 'Terminal>New Terminal'</li>
-        <li>Use cd in cmd and attain the path - D:\GIT\website\lesson\letslearn\my-website  </li>
-        <li>Type 'npm start' and get the result (OUTPUT)</li>
+           <li>Now, work in this folder only.</li>
+           <li>The path is - D:\GIT\website\lesson\letslearn\my-website</li>
+           <li>To work in html do in App.js and save the file.</li>
+           <li>GO to cmd by 'Terminal>New Terminal'</li>
+           <li>Use cd in cmd and attain the path - D:\GIT\website\lesson\letslearn\my-website  </li>
+           <li>Type 'npm start' and get the result (OUTPUT)</li>
          </ul>
          <ol>
            <li>Let us see</li>
            <li>Does it work or not</li>
            <li>Yes, it worked. Wait for some time to get the output</li>
          </ol>
+         <h2>Adding image</h2>
+         <img src ="https://unsplash.it /600/400"/>
+
     </div>
    
   );
