@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
     <div>
       <h1>Hello Good Day</h1>
       <h2>Oh! Yes, Good Day</h2>
+      <p>This is line One.</p>
     </div>
    
   );
@@ -14,7 +15,7 @@ function App() {
 export default App;
 
 // 
-{/* <div className="App">
+/* <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -30,4 +31,4 @@ export default App;
           Learn React
         </a>
       </header>
-    </div> */}
+    </div> */
