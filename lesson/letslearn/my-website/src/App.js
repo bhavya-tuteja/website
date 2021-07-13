@@ -14,8 +14,13 @@ function App() {
         <li>To work in html do in App.js and save the file.</li>
         <li>GO to cmd by 'Terminal>New Terminal'</li>
         <li>Use cd in cmd and attain the path - D:\GIT\website\lesson\letslearn\my-website  </li>
-        <li>Type npm start and get the result (OUTPUT)</li>
+        <li>Type 'npm start' and get the result (OUTPUT)</li>
          </ul>
+         <ol>
+           <li>Let us see</li>
+           <li>Does it work or not</li>
+           <li>Yes, it worked. Wait for some time to get the output</li>
+         </ol>
     </div>
    
   );
