@@ -7,6 +7,15 @@ function App() {
       <h1>Hello Good Day</h1>
       <h2>Oh! Yes, Good Day</h2>
       <p>This is line One.</p>
+      <p><strong>How to work in react </strong></p>
+      <ul>
+        <li>Now, work in this folder only.</li>
+        <li>The path is - D:\GIT\website\lesson\letslearn\my-website</li>
+        <li>To work in html do in App.js and save the file.</li>
+        <li>GO to cmd by 'Terminal>New Terminal'</li>
+        <li>Use cd in cmd and attain the path - D:\GIT\website\lesson\letslearn\my-website  </li>
+        <li>Type npm start and get the result (OUTPUT)</li>
+         </ul>
     </div>
    
   );
