@@ -6,8 +6,10 @@ function App() {
     <div>
       <h1>Hello Good Day</h1>
       <h2>Oh! Yes, Good Day</h2>
-      <p>This is line One.</p>
+      <p>Introduction Para</p>
       <p><strong>How to work in react </strong></p>
+      <p>Use of ul and ol tags</p>
+      <p>Ul- Unordered List and Ol - Ordered List</p>
       <ul>
            <li>Now, work in this folder only.</li>
            <li>The path is - D:\GIT\website\lesson\letslearn\my-website</li>
@@ -22,7 +24,7 @@ function App() {
            <li>Yes, it worked. Wait for some time to get the output</li>
          </ol>
          <h2>Adding image</h2>
-         <img src ="https://unsplash.it /600/400"/>
+         <img src ="https://unsplash.it/600/400" alt="Img No 1"/>
 
     </div>
    
