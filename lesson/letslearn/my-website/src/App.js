@@ -4,11 +4,26 @@ import './App.css';
 function App() {
   return (
     <div>
+      <p>HTML Headings and Paragraph</p>
       <h1>Hello Good Day</h1>
       <h2>Oh! Yes, Good Day</h2>
       <p>Introduction Para</p>
       <p><strong>How to work in react </strong></p>
       <p>Use of ul and ol tags</p>
+      <pre>To write a poem
+           We use 'pre' tag
+           It is the way 
+           To write a poem 
+      </pre>
+      <pre>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
       <p>Ul- Unordered List and Ol - Ordered List</p>
       <ul>
            <li>Now, work in this folder only.</li>
