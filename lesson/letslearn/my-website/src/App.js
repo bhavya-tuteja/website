@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   return (
     <div>
+      <h2>HTML INTORDUCTION (PAGE 1)</h2>
       <p>HTML Headings and Paragraph</p>
       <h1>Hello Good Day</h1>
       <h2>Oh! Yes, Good Day</h2>
@@ -38,8 +39,10 @@ function App() {
            <li>Does it work or not</li>
            <li>Yes, it worked. Wait for some time to get the output</li>
          </ol>
+            <h2>HTML PAGE 2(IMAGES) </h2> 
          <h2>Adding image</h2>
          <img src ="https://unsplash.it/600/400" alt="Img No 1"/>
+         <h2>HTML PAGE 3( FONT )</h2>
           <h1>Bold, Italics and Underline and Font Style </h1>
            <ul>
                <li>Bold - Crrl B 'To Bold the text'.</li> 
