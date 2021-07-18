@@ -4,9 +4,10 @@ import './App.css';
 function App() {
   return (
     <div>
-      <h2>HTML INTORDUCTION (PAGE 1)</h2>
+      
       <p>HTML Headings and Paragraph</p>
       <h1>Hello Good Day</h1>
+      <h2>HTML INTRODUCTION (PAGE1)</h2>
       <h2>Oh! Yes, Good Day</h2>
       <p>Introduction Para</p>
       <p><strong>How to work in react </strong></p>
@@ -60,6 +61,24 @@ function App() {
                     <p><i><b>Italics  and Boldness effect given to the text with tag 'I' and 'B' tags</b> </i></p>
                     <p><i><b><u>Italics  and Boldness effect given to the text with tag 'I' and 'B' tags</u></b> </i></p>
                
+           </ul>
+           <h2>HTML STYLE (PAGE 4) </h2>
+           <ul>
+                Style in html includes font, size, color etc.
+                <li>Text Formating - mark, em, ins, del, sup, sub ec.</li>
+                 <li>Adding color to text in a paragraph</li>
+                        <p style={{color:"red"}}>It is line number 1 with red color</p>
+                        <p style={{background:"blue",color:"white", fontSize:"25px"}} >It is line number 2 with background color pink text blue and size 25px</p>
+                        <p style={{align:"center"}}> The text is aligned center</p>
+                 
+                 <li>Adding other effets - mark, em, ins, del</li>
+                         <p>It is a text is the way it marked  <mark> " THE MARKED PART OF THE TEXT "</mark>.</p>
+                         <p>It is a text with del effect <del><mark>" THE PART OF THE TEXT IS DEL " with mark</mark></del></p>
+                         <p>It is a text with em effet <em><mark>" THE PART OF THE TEXT IS EM " with mark.</mark></em></p>
+                 <li>Adding effect of subscript and superscript</li>
+                         <p>It is a text with both sub and and sup effects " <sub>TEXT IS SUBSCRIPT</sub>AND THE OTHER EFFECT <sup>LAST PART IS SUPERSCRIPT . </sup></p>
+                 <li></li>
+                 <li></li>
            </ul>
     </div>
    
