@@ -80,6 +80,24 @@ function App() {
                  <li></li>
                  <li></li>
            </ul>
+                <style>
+                         
+                </style>
+                <center><h1>How to Bind Color into Select Option (dropdown)</h1>
+                        <h2>HTLM - CSS STYLE</h2>
+                        <hr></hr>
+                        </center>
+                         <select>
+                                  <option value="" selected disabled hidden style={{fontSize:"25px"}}>--SELECT COLOR--</option>
+                                  <option style={{fontSize:"1.5rem", color:"pink"}}>PINK</option>
+                                  <option style={{fontSize:"1.5rem", color:"red"}}>RED</option>
+                                  <option style={{fontSize:"1.5rem", color:"blue"}}>BLUE</option>
+                                  <option style={{fontSize:"1.5rem", colopr:"green"}}>GREEN</option>
+                                  <option style={{fontSize:"1.5rem" , color:"orange"}}>ORANGE</option>
+                          </select>
+                
+
+                  
     </div>
    
   );
