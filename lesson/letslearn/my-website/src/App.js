@@ -46,11 +46,11 @@ function App() {
             
                    <p>To Bold the embed the text with tag 'B'</p>
                    <p><b> Bold the text output with tag 'B'</b></p>
-                 <li>Bold - Crrl B 'To Bold the text'.</li>
+                   <li>Bold - Crrl B 'To Bold the text'.</li>
                    <p>To give Italics effect embed the text with tag 'I'</p>
                    <p><i> Italics effect given to the text with tag 'I</i></p>
                    <p><i><b>Italics  and Boldness effect given to the text with tag 'I' and 'B'</b> </i></p>
-                 <li>Underline - Crrl U 'To Underline the text'.</li> 
+                   <li>Underline - Crrl U 'To Underline the text'.</li> 
                     <p>To Underline the embed the text with tag 'U'</p>
                     <p>To give Italics effect embed the text with tag 'I'</p>
                     <p><i> Italics effect given to the text with tag 'I</i></p>
