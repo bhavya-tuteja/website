@@ -14,7 +14,7 @@ function App() {
       <a href="#PAGE4">Go to Page4</a><br></br><br></br>
       <a href="#PAGE5">Go to Page5</a><br></br><br></br>
       <a href="#PAGE6">Go to Page6</a><br></br><br></br>
-      <a href="#PAGE4">Go to Page4</a><br></br><br></br>
+      <a href="#PAGE7">Go to Page7</a><br></br><br></br>
      <center> <h2 id="PAGE1">HTML INTRODUCTION-PAGE1</h2></center>
       <h2>Oh! Yes, Good Day</h2>
       <p>Introduction Para</p>
@@ -182,10 +182,15 @@ function App() {
                       <h2>HTML DIV (TAG)</h2></center>
                        <h2>GENERAL INTRODUCTION OF DIV (TAG)</h2>
                        <p>Point No 1 : Div tag means division of a document<br></br>
-                          Point No 2 : Div tag creates sections of a document<br></br>
+                          Point No 2 : Div tag creates logical sections of a document<br></br>
                           Point No 3 : Div tag can be identified by 'id'<br></br>
                           Point No 4 : In 'id' we can create further parts called class</p>
                           <br></br><br></br>
+                          <h2>LEARNING HTML AND DIV TAG</h2>
+                          <p>Page 1 :  It contains html tags - heading, p, center, strong, pre, ul, li ol, li tags </p>
+                          <p>Page 2 :  How to enter images usein 'https://unsplash.it'</p>
+                          <p>Page 3 :  Use of bold, italics, underline tags </p>
+                          <p>Page 4 :  Use of font size, color, em, mark, del, sun, sub</p>
            <a href="#INTRODUCTION">Go to Intoduction</a><br></br><br></br>              
     </div>
    
