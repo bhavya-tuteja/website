@@ -40,3 +40,6 @@ node_modules
 
 
 https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets
+
+https://reactjs.org/docs/hello-world.html
+https://www.primefaces.org/primereact/showcase/#/autocomplete
