@@ -1,14 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "semantic-ui-css/semantic.min.css";
-import { MyApp } from "./MyApp";
+import { App } from "./App";
 // import App from "./App";
 // import reportWebVitals from './reportWebVitals';
-
+import "./styles/style.css";
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <MyApp />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

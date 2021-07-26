@@ -1,22 +1,24 @@
-import React from "react";
-// import {
-//   Header as Head,
-//   Icon,
-//   Image,
-//   Menu,
-//   Segment,
-//   Sidebar,
-// } from "semantic-ui-react";
+import React from 'react'
+import PropTypes from 'prop-types'
 
-export const Header = () => {
-  return (
-    <div className="header">
-      <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Gallery</li>
-          <li>Contact Us</li>
-      </ul>
-    </div>
-  );
-};
+const Header = props => {
+    let {title,subTitle} = props;
+    // const title = props.title;
+    // const subTitle = props.subTitle;
+    return (
+        <div>
+            {title}
+            <p>{subTitle}</p>
+        </div>
+    )
+}
+Header.defaultProps = {
+    title: "My Header",
+    subTitle:false
+}
+Header.propTypes = {
+    title: PropTypes.string,
+    subTitle: PropTypes.oneOfType([PropTypes.string,PropTypes.bool])
+}
+
+export {Header}
