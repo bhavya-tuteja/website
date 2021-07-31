@@ -1,12 +1,12 @@
 <template>
-<form>
-  <input type="radio" id="html" name="fav_language" value="HTML">
-  <label for="html">HTML</label><br>
-  <input type="radio" id="css" name="fav_language" value="CSS">
-  <label for="css">CSS</label><br>
-  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-  <label for="javascript">JavaScript</label>
-</form>
+ <label for="email">Email:</label>
+  <input type="email" id="email" placeholder="Enter email" name="email">
+  <label for="pwd">Password:</label>
+  <input type="password" id="pwd" placeholder="Enter password" name="pswd">
+  <label>
+    <input type="checkbox" name="remember"> Remember me
+  </label>
+  <button type="submit">Submit</button>
 </template>
 <script>
 
@@ -16,3 +16,6 @@ export default  {
   }
 
 </script>
+<style>
+
+</style>
