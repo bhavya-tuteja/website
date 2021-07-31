@@ -10,7 +10,6 @@
     </label>
   </div>
   <button type="submit" class="btn btn-primary mb-2">Submit</button>
-</form>
 </div>
 
 </template>
@@ -20,5 +19,5 @@
 export default  {
   
   }
-}
+
 </script>
