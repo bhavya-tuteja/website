@@ -1,17 +1,12 @@
 <template>
-<div class="form">
-    <label for="email" class="mr-sm-2">Email address:</label>
-  <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Enter email" id="email">
-  <label for="pwd" class="mr-sm-2">Password:</label>
-  <input type="password" class="form-control mb-2 mr-sm-2" placeholder="Enter password" id="pwd">
-  <div class="form-check mb-2 mr-sm-2">
-    <label class="form-check-label">
-      <input class="form-check-input" type="checkbox"> Remember me
-    </label>
-  </div>
-  <button type="submit" class="btn btn-primary mb-2">Submit</button>
-</div>
-
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</form>
 </template>
 <script>
 
