@@ -6,13 +6,15 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import Abc from "./components/Abc.vue";
+//import Abc from "./components/Abc.vue";
+import Begin from "./components/Begin.vue";
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
-    Abc
+    //Abc
+    Begin
   }
 }
 </script>

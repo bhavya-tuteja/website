@@ -15,13 +15,10 @@
 
 </template>
 <script>
-import { Begin } from "./components/Abc.vue";
 
 
 export default  {
-  name: 'Begin',
-  props: {
-    msg: String
+  
   }
 }
 </script>
