@@ -1,6 +1,6 @@
 <template>
     <div :key="task.id" v-for="task in tasks">
-        <Task @delete-task="$emit('delete-task', task.id)" :task="task"/>
+        <Task :deleteTask="deleteTask" :task="task"/>
     </div>
 </template>
 
@@ -10,7 +10,8 @@ import Task from './Task.vue'
     export default{
         name: 'Tasks',
         props:{
-            tasks: Array
+            tasks: Array,
+            deleteTask:Function
         },
         components:{
             Task

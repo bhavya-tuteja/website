@@ -2,7 +2,7 @@
 <!-- <<<<<<< HEAD -->
 <div class="container">
   <Header title="Task Tracker" />
-  <Tasks @delete-task="deleteTask" :tasks="tasks"/>
+  <Tasks :deleteTask="deleteTask" :tasks="tasks"/>
   <Footer />
 </div>
 </template>
