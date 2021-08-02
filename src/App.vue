@@ -3,12 +3,14 @@
 <div class="container">
   <Header title="Task Tracker" />
   <Tasks @delete-task="deleteTask" :tasks="tasks"/>
+  <Footer />
 </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
 import Tasks from "./components/Tasks.vue";
+import Footer from "./components/Footer.vue";
 // =======
 //   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
 //   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
@@ -27,7 +29,8 @@ export default {
   components: {
 // <<<<<<< HEAD
     Header,
-    Tasks
+    Tasks,
+    Footer
   }, 
   data(){
     return{
