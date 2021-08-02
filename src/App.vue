@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
 <div class="container">
   <Header title="Task Tracker" />
   <Tasks @delete-task="deleteTask" :tasks="tasks"/>
@@ -8,10 +9,23 @@
 <script>
 import Header from "./components/Header.vue";
 import Tasks from "./components/Tasks.vue";
+=======
+//   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+//   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  
+//   <Begin/>
+// </template>
+
+// <script>
+// // import HelloWorld from './components/HelloWorld.vue'
+// //import Abc from "./components/Abc.vue";
+// import Begin from "./components/Begin.vue";
+// >>>>>>> a00c16a24de37c7cb9836079703b2b5d69da2f58
 
 export default {
   name: 'App',
   components: {
+<<<<<<< HEAD
     Header,
     Tasks
   }, 
@@ -50,6 +64,11 @@ export default {
         reminder: true
       }
     ]
+=======
+    // HelloWorld,
+    //Abc
+    Begin
+>>>>>>> a00c16a24de37c7cb9836079703b2b5d69da2f58
   }
 }
 </script>
