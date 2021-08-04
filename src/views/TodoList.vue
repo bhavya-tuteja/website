@@ -1,6 +1,9 @@
 <template>
     <div class="container">
         <Header title="Task Tracker" />
+        <div v-show="showAddTask">
+          <AddTask @addTask="addTask"/>
+        </div>
         <Tasks :deleteTask="deleteTask" :tasks="tasks"/>
         <Footer />
     </div>
@@ -10,19 +13,29 @@
 import Header from "@/components/Header.vue";
 import Tasks from "@/components/Tasks.vue";
 import Footer from "@/components/Footer.vue";
+import AddTask from "@/components/AddTask.vue";
+
 export default {
   name: 'App',
   components: {
     Header,
+    AddTask,
     Tasks,
     Footer
   }, 
   data(){
     return{
-      tasks:[]
+      tasks:[],
+      showAddTask:true
     }
   },
   methods:{
+    toggleAddTask(){
+      this.showAddTask =!this.showAddTask
+    },
+    addTask(task){
+      this.tasks = [...this.tasks, task]
+    },
     deleteTask(id){
       if(confirm('Do you want to delete this task!')){
 

@@ -1,7 +1,7 @@
 <template>
     <header>
         <h1>{{title}}</h1>
-        <Button text="Add Text" color="green"/>
+        <Button @toggle-add-task="toggleAddTask" text="Add Text" color="green"/>
     </header>
 </template>
 
@@ -13,6 +13,7 @@ export default ({
     name: 'Header',
     props: {
         title: String,
+        toggleAddTask: Function
     },
     components:{
         Button,

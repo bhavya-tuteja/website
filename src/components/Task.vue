@@ -1,5 +1,5 @@
 <template>
-<div @dblclick="$emit('toggle-reminder', task.id)" :class="[task.reminder ? 'reminder' : '','task']">
+<div @dblclick="toggleReminder(task.id)" :class="[task.reminder ? 'reminder' : '','task']">
     <h3>
         {{task.text}}
         <i @click="deleteTask(task.id)" class="fas fa-times"></i>
@@ -13,7 +13,8 @@ export default {
     name: 'Task',
     props:{
         task: Object,
-        deleteTask:Function
+        deleteTask:Function,
+        toggleReminder:Function
     }
 }
 </script>
