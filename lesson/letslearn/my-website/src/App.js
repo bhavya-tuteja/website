@@ -8,13 +8,13 @@ function App() {
       <center><h1 id="INTRODUCTION">PAGE: INTRODUCTION </h1>
       <p>HTML Headings and Paragraph</p>
       <h1>Hello Good Day</h1></center>
-      <a href="#PAGE1">Go to Page1</a><br></br><br></br>
-      <a href="#PAGE2">Go to Page2</a><br></br><br></br>
-      <a href="#PAGE3">Go to Page3</a><br></br><br></br>
-      <a href="#PAGE4">Go to Page4</a><br></br><br></br>
-      <a href="#PAGE5">Go to Page5</a><br></br><br></br>
-      <a href="#PAGE6">Go to Page6</a><br></br><br></br>
-      <a href="#PAGE7">Go to Page7</a><br></br><br></br>
+      <a href="#PAGE1">Go to Page1(html Introduction)</a><br></br><br></br>
+      <a href="#PAGE2">Go to Page2(Adding Images)</a><br></br><br></br>
+      <a href="#PAGE3">Go to Page3(Bold, Italics, Underline and Font Changes)</a><br></br><br></br>
+      <a href="#PAGE4">Go to Page4(Style in html)</a><br></br><br></br>
+      <a href="#PAGE5">Go to Page5(Html lesson in color)</a><br></br><br></br>
+      <a href="#PAGE6">Go to Page6(List tags)</a><br></br><br></br>
+      <a href="#PAGE7">Go to Page7(Div Tag)</a><br></br><br></br>
      <center> <h2 id="PAGE1">HTML INTRODUCTION-PAGE1</h2></center>
       <h2>Oh! Yes, Good Day</h2>
       <p>Introduction Para</p>
