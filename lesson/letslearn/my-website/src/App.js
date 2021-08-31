@@ -98,12 +98,12 @@ function App() {
            </ul>
            <br></br><br></br>
            <a href="#INTRODUCTION">Go to Intoduction</a><br></br><br></br>
-                {/* <style> */}
-                         {/* .pink{ */}
-                                {/* background-color */}
-                                {/* :"pink"; */}
-                         {/* } */}
-                        
+              {/* <style> 
+                         {.pink
+                                background-color 
+                                 :pink; }
+                          </style>
+                        */
                          {/* .red{ */}
                                 {/* background-color:red; */}
                          {/* } */}
