@@ -191,6 +191,7 @@ function App() {
                           <p>Page 2 :  How to enter images usein 'https://unsplash.it'</p>
                           <p>Page 3 :  Use of bold, italics, underline tags </p>
                           <p>Page 4 :  Use of font size, color, em, mark, del, sun, sub</p>
+                          <p></p>  
            <a href="#INTRODUCTION">Go to Intoduction</a><br></br><br></br>              
     </div>
    
